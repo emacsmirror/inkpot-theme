@@ -1,10 +1,12 @@
 ;;; inkpot-theme.el --- port of vim's inkpot theme 
 
 ;; Author: Sarah Iovan <sarah@hwaetageek.com>
-;; URL: http://github.com/siovan/emacs24-inkpot.git
+;;         Campbell Barton <ideasman42@gmail.com>
+;; URL: http://github.com/ideasman42/emacs24-inkpot.git
 ;; Version: 0.1
 
-; This file is based on Per Vognsen's port of the original vim theme. The original emacs color-theme version is found at http://www.emacswiki.org/emacs/ColorThemeInkpot. 
+; This file is based on Per Vognsen's port of the original vim theme.
+; The original emacs color-theme version is found at http://www.emacswiki.org/emacs/ColorThemeInkpot. 
 
 (deftheme inkpot)
 
@@ -12,10 +14,11 @@
   'inkpot 
         '(default ((t (:background "#1e1e27" :foreground "#cfbfad"))))
         '(font-lock-builtin-face ((t (:foreground "#cfbfad"))))
-        '(region ((t (:background "#404040"))))
+        '(region ((t (:background "#4e4e8f"))))
         '(highlight ((t (:background "#404040"))))
-        '(fringe ((t (:background "#1e1e27" :foreground "#cfbfad"))))
-	'(cursor ((t (:background "#708090" :foreground "#cfdfef"))))
+        '(fringe ((t (:background "#2e2e2e" :foreground "#8b8bcd"))))
+        '(linum ((t (:background "#2e2e2e" :foreground "#8b8bcd"))))
+        '(cursor ((t (:background "#8b8bff" :foreground "#cfdfef"))))
         '(show-paren-match-face ((t (:background "#606060"))))
         '(isearch ((t (:bold t :foreground "#303030" :background "#cd8b60"))))
         '(modeline ((t (:bold t :foreground "#b9b9b9" :background "#3e3e5e"))))
@@ -27,7 +30,7 @@
         '(font-lock-comment-face ((t (:foreground "#cd8b00")))) 
         '(font-lock-comment-delimiter-face ((t (:foreground "#cd8b00"))))
         ;'(font-lock-comment-face ((t (:foreground "#708090")))) ; alternate comment face
-        '(font-lock-constant-face ((t (:foreground "808bed"))))
+        '(font-lock-constant-face ((t (:foreground "#808bed"))))
         '(font-lock-doc-face ((t (:foreground "#cd8b00"))))
         '(font-lock-function-name-face ((t (:foreground "#87cefa"))))
         '(font-lock-keyword-face ((t (:bold t :foreground "#c080d0"))))
@@ -37,8 +40,8 @@
         '(font-lock-type-face ((t (:foreground "#ff8bff"))))
         '(font-lock-variable-name-face ((t nil)))
         '(font-lock-warning-face ((t (:foreground "#ffffff" :background "#ff0000"))))
-	'(w3m-anchor ((t (:foreground "#c080d0"))))
-	'(info-xref ((t (:foreground "#409090")))) 
+        '(w3m-anchor ((t (:foreground "#c080d0"))))
+        '(info-xref ((t (:foreground "#409090")))) 
         '(info-menu-star ((t (:foreground "#409090")))) 
         '(message-cited-text ((t (:foreground "#cd8b00")))) 
         '(gnus-cite-face-1 ((t (:foreground "#708090"))))
@@ -115,11 +118,11 @@
         '(org-agenda-date ((t (:foreground "#409090"))))
         '(org-agenda-date-weekend ((t (:weight normal :foreground "8b8bcd"))))
         '(org-agenda-date-today ((t (:weight bold :foreground "#cd8b00"))))
-	'(font-latex-bold-face ((t (:foreground "#cd8b00"))))
-	'(font-latex-italic-face ((t (:foreground "#808bed" :italic t))))
-	'(font-latex-string-face ((t (:foreground "#708090"))))
-	'(font-latex-match-reference-keywords ((t (:foreground "#708090"))))
-	'(font-latex-match-variable-keywords ((t (:foreground "#708090"))))
+        '(font-latex-bold-face ((t (:foreground "#cd8b00"))))
+        '(font-latex-italic-face ((t (:foreground "#808bed" :italic t))))
+        '(font-latex-string-face ((t (:foreground "#708090"))))
+        '(font-latex-match-reference-keywords ((t (:foreground "#708090"))))
+        '(font-latex-match-variable-keywords ((t (:foreground "#708090"))))
 )
 ;;;###autoload
 (when load-file-name
