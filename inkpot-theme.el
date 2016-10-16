@@ -19,7 +19,7 @@
         '(fringe ((t (:background "#2e2e2e" :foreground "#8b8bcd"))))
         '(linum ((t (:background "#2e2e2e" :foreground "#8b8bcd"))))
         '(cursor ((t (:background "#8b8bff" :foreground "#cfdfef"))))
-        '(show-paren-match-face ((t (:background "#606060"))))
+        '(show-paren-match-face ((t (:background "#4e4e8f"))))
         '(isearch ((t (:bold t :foreground "#303030" :background "#cd8b60"))))
         '(modeline ((t (:bold t :foreground "#b9b9b9" :background "#3e3e5e"))))
         '(modeline-inactive ((t (:foreground "#708090" :background "#3e3e5e"))))
