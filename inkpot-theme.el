@@ -16,6 +16,7 @@
         '(font-lock-builtin-face ((t (:foreground "#cfbfad"))))
         '(region ((t (:background "#4e4e8f"))))
         '(highlight ((t (:background "#404040"))))
+        '(hl-line ((t (:background "#2e2e37"))))
         '(fringe ((t (:background "#2e2e2e" :foreground "#8b8bcd"))))
         '(linum ((t (:background "#2e2e2e" :foreground "#8b8bcd"))))
         '(cursor ((t (:background "#8b8bff" :foreground "#cfdfef"))))
