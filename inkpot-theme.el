@@ -1,4 +1,4 @@
-;;; inkpot-theme.el --- port of vim's inkpot theme 
+;;; inkpot-theme.el --- port of vim's inkpot theme
 
 ;; Author: Sarah Iovan <sarah@hwaetageek.com>
 ;;         Campbell Barton <ideasman42@gmail.com>
@@ -6,12 +6,12 @@
 ;; Version: 0.1
 
 ; This file is based on Per Vognsen's port of the original vim theme.
-; The original emacs color-theme version is found at http://www.emacswiki.org/emacs/ColorThemeInkpot. 
+; The original emacs color-theme version is found at http://www.emacswiki.org/emacs/ColorThemeInkpot.
 
 (deftheme inkpot)
 
 (custom-theme-set-faces
-  'inkpot 
+  'inkpot
         '(default ((t (:background "#1e1e27" :foreground "#cfbfad"))))
         '(font-lock-builtin-face ((t (:foreground "#cfbfad"))))
         '(region ((t (:background "#4e4e8f"))))
@@ -28,7 +28,7 @@
         '(minibuffer-prompt ((t (:bold t :foreground "#708090"))))
         '(default-italic ((t (:italic t))))
         '(font-lock-builtin-face ((t (:foreground "#c080d0"))))
-        '(font-lock-comment-face ((t (:foreground "#cd8b00")))) 
+        '(font-lock-comment-face ((t (:foreground "#cd8b00"))))
         '(font-lock-comment-delimiter-face ((t (:foreground "#cd8b00"))))
         ;'(font-lock-comment-face ((t (:foreground "#708090")))) ; alternate comment face
         '(font-lock-constant-face ((t (:foreground "#808bed"))))
@@ -42,9 +42,9 @@
         '(font-lock-variable-name-face ((t nil)))
         '(font-lock-warning-face ((t (:foreground "#ffffff" :background "#ff0000"))))
         '(w3m-anchor ((t (:foreground "#c080d0"))))
-        '(info-xref ((t (:foreground "#409090")))) 
-        '(info-menu-star ((t (:foreground "#409090")))) 
-        '(message-cited-text ((t (:foreground "#cd8b00")))) 
+        '(info-xref ((t (:foreground "#409090"))))
+        '(info-menu-star ((t (:foreground "#409090"))))
+        '(message-cited-text ((t (:foreground "#cd8b00"))))
         '(gnus-cite-face-1 ((t (:foreground "#708090"))))
         '(gnus-cite-face-2 ((t (:foreground "#df9f2d"))))
         '(gnus-cite-face-3 ((t (:foreground "#ad7fa8"))))
