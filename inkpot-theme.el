@@ -40,7 +40,7 @@
         '(font-lock-string-face ((t (:foreground "#ffcd8b" :background "#404040"))))
         '(font-lock-type-face ((t (:foreground "#ff8bff"))))
         '(font-lock-variable-name-face ((t nil)))
-        '(font-lock-warning-face ((t (:foreground "#ffffff" :background "#ff0000"))))
+        '(font-lock-warning-face ((t (:foreground "#ffffff" :background "#6e2e2e"))))
         '(w3m-anchor ((t (:foreground "#c080d0"))))
         '(info-xref ((t (:foreground "#409090"))))
         '(info-menu-star ((t (:foreground "#409090"))))
