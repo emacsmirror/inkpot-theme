@@ -30,9 +30,9 @@
         '(font-lock-builtin-face ((t (:foreground "#c080d0"))))
         '(font-lock-comment-face ((t (:foreground "#cd8b00"))))
         '(font-lock-comment-delimiter-face ((t (:foreground "#cd8b00"))))
-        ;'(font-lock-comment-face ((t (:foreground "#708090")))) ; alternate comment face
+        '(font-lock-doc-face ((t (:foreground "#c080d0"))))
+        ;'(font-lock-doc-face ((t (:foreground "#808bed"))))  ; alternate comment face
         '(font-lock-constant-face ((t (:foreground "#808bed"))))
-        '(font-lock-doc-face ((t (:foreground "#cd8b00"))))
         '(font-lock-function-name-face ((t (:foreground "#87cefa"))))
         '(font-lock-keyword-face ((t (:bold t :foreground "#c080d0"))))
         '(font-lock-preprocessor-face ((t (:foreground "#409090"))))
