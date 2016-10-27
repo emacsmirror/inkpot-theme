@@ -27,13 +27,13 @@
         '(modeline-buffer-id ((t (:bold t :foreground "#b9b9b9" :background "#3e3e5e"))))
         '(minibuffer-prompt ((t (:bold t :foreground "#708090"))))
         '(default-italic ((t (:italic t))))
-        '(font-lock-builtin-face ((t (:foreground "#c080d0"))))
+        '(font-lock-builtin-face ((t (:foreground "#ff8bff"))))
         '(font-lock-comment-face ((t (:foreground "#cd8b00"))))
         '(font-lock-comment-delimiter-face ((t (:foreground "#cd8b00"))))
-        '(font-lock-doc-face ((t (:foreground "#c080d0"))))
-        ;'(font-lock-doc-face ((t (:foreground "#808bed"))))  ; alternate comment face
+        ;'(font-lock-doc-face ((t (:foreground "#c080d0"))))
+        '(font-lock-doc-face ((t (:foreground "#808bed"))))  ; alternate comment face
         '(font-lock-constant-face ((t (:foreground "#409090"))))
-        '(font-lock-function-name-face ((t (:foreground "#87cefa"))))
+        '(font-lock-function-name-face ((t (:foreground "#ff8bff"))))
         '(font-lock-keyword-face ((t (:foreground "#808bed"))))
         '(font-lock-preprocessor-face ((t (:foreground "#409090"))))
         '(font-lock-reference-face ((t (:bold t :foreground "#808bed"))))
