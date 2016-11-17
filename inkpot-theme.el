@@ -124,6 +124,7 @@
         '(font-latex-string-face ((t (:foreground "#708090"))))
         '(font-latex-match-reference-keywords ((t (:foreground "#708090"))))
         '(font-latex-match-variable-keywords ((t (:foreground "#708090"))))
+        '(ivy-current-match ((t (:background "#2e2e37" :foreground "#ffcd8b"))))
 )
 ;;;###autoload
 (when load-file-name
