@@ -15,6 +15,7 @@
         '(default ((t (:background "#1e1e27" :foreground "#cfbfad"))))
         '(font-lock-builtin-face ((t (:foreground "#cfbfad"))))
         '(region ((t (:background "#4e4e8f"))))
+        '(secondary-selection ((t (:foreground "#b38363" :inverse-video t)))) ; match gvim secondary selection
         '(highlight ((t (:background "#404040"))))
         '(hl-line ((t (:background "#2e2e37"))))
         '(fringe ((t (:background "#2e2e2e" :foreground "#8b8bcd"))))
