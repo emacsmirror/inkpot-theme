@@ -22,7 +22,15 @@
         '(linum ((t (:background "#2e2e2e" :foreground "#8b8bcd"))))
         '(cursor ((t (:background "#8b8bff" :foreground "#cfdfef"))))
         '(show-paren-match-face ((t (:background "#4e4e8f"))))
-        '(isearch ((t (:bold t :foreground "#303030" :background "#cd8b60"))))
+
+        ; isearch
+        ;
+        ; note: original theme doesn't show different colors here,
+        ; simply use bold for 'isearch'.
+        '(isearch ((t (:bold t :foreground "#303030" :background "#ad7b57"))))
+        '(lazy-highlight ((t  (:foreground "#303030" :background "#ad7b57"))))
+        '(isearch-fail ((t (:foreground "#ffffff" :background "#ce4e4e"))))
+
         '(modeline ((t (:bold t :foreground "#b9b9b9" :background "#3e3e5e"))))
         '(modeline-inactive ((t (:foreground "#708090" :background "#3e3e5e"))))
         '(modeline-buffer-id ((t (:bold t :foreground "#b9b9b9" :background "#3e3e5e"))))
