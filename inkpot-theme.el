@@ -31,9 +31,9 @@
         '(lazy-highlight ((t  (:foreground "#303030" :background "#ad7b57"))))
         '(isearch-fail ((t (:foreground "#ffffff" :background "#ce4e4e"))))
 
-        '(modeline ((t (:bold t :foreground "#b9b9b9" :background "#3e3e5e"))))
-        '(modeline-inactive ((t (:foreground "#708090" :background "#3e3e5e"))))
-        '(modeline-buffer-id ((t (:bold t :foreground "#b9b9b9" :background "#3e3e5e"))))
+        '(mode-line ((t (:bold t :foreground "#b9b9b9" :background "#3e3e5e"))))
+        '(mode-line-inactive ((t (:bold t :foreground "#708090" :background "#3e3e5e"))))
+        '(mode-line-buffer-id ((t (:bold t :foreground "#b9b9b9" :background "#3e3e5e"))))
         '(minibuffer-prompt ((t (:bold t :foreground "#708090"))))
         '(default-italic ((t (:italic t))))
         '(font-lock-builtin-face ((t (:foreground "#ff8bff"))))
