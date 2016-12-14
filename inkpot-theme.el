@@ -133,7 +133,11 @@
         '(font-latex-string-face ((t (:foreground "#708090"))))
         '(font-latex-match-reference-keywords ((t (:foreground "#708090"))))
         '(font-latex-match-variable-keywords ((t (:foreground "#708090"))))
-        '(ivy-current-match ((t (:background "#2e2e37" :foreground "#ffcd8b"))))
+
+        '(ivy-current-match ((t (:background "#4e4e8f" :foreground "#ffffff"))))
+        ;; highlight matching chars (same as isearch)
+        '(ivy-minibuffer-match-face-2 ((t (:background "#ad7b57" :foreground "#303030"))))
+
 )
 ;;;###autoload
 (when load-file-name
