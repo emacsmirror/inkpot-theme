@@ -12,7 +12,7 @@
 
 ;;; Code:
 
-(deftheme inkpot)
+(deftheme inkpot "Inkpot theme, dark color scheme with bright easily identifiable colors.")
 
 (custom-theme-set-faces
   'inkpot
