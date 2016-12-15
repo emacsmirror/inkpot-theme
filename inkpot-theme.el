@@ -5,8 +5,12 @@
 ;; URL: http://github.com/ideasman42/emacs24-inkpot.git
 ;; Version: 0.1
 
-; This file is based on Per Vognsen's port of the original vim theme.
-; The original emacs color-theme version is found at http://www.emacswiki.org/emacs/ColorThemeInkpot.
+;;; Commentary:
+
+;; This file is based on Per Vognsen's port of the original vim theme.
+;; The original emacs color-theme version is found at http://www.emacswiki.org/emacs/ColorThemeInkpot.
+
+;;; Code:
 
 (deftheme inkpot)
 
