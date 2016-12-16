@@ -154,9 +154,16 @@
         '(font-latex-match-reference-keywords ((t (:foreground "#708090"))))
         '(font-latex-match-variable-keywords ((t (:foreground "#708090"))))
 
+        ;; Colors for popular plugins
+
+        ;; Ivy
         '(ivy-current-match ((t (:background "#4e4e8f" :foreground "#ffffff"))))
         ;; highlight matching chars (same as isearch)
         '(ivy-minibuffer-match-face-2 ((t (:background "#ad7b57" :foreground "#303030"))))
+
+        ;; Highlight Indent Guides
+        '(highlight-indent-guides-odd-face ((t (:background "#252530"))))
+        '(highlight-indent-guides-even-face ((t (:background "#1b1b24"))))
 
 )
 ;;;###autoload

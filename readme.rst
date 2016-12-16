@@ -1,12 +1,28 @@
-emacs-inkpot
-============
+Emacs InkPot Theme
+==================
 
-a port of the vim inkpot theme for emacs deftheme
+This theme is a port of the Vim InkPot theme for Emacs ``deftheme``.
 
-This theme is still rough, but I've taken Per Vognsen's port of vim's wonderful inkpot,
-added some extra faces for org and gnus,
-and ported it to use the deftheme architecture.
+This theme is quite close to
+`Vim's wonderful InkPot theme <http://www.vim.org/scripts/script.php?script_id=1143>`__.
 
-You can find Per Vognsen's original at http://www.emacswiki.org/emacs/ColorThemeInkpot.
+
+Notes
+-----
+
+Added extra faces for:
+
+- gnus.
+- org-mode.
+- ivy-mode.
+- highlight-indent-guides.
+
+
+Differences the Original
+------------------------
+
+- Numbers currently don't use their own color
+  *(not supported by Emacs by default)*.
+
 
 Additions, corrections, and improvements are most welcome.
