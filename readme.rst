@@ -15,6 +15,7 @@ Added extra faces for:
 - gnus.
 - org-mode.
 - ivy-mode.
+- helm-mode.
 - highlight-indent-guides.
 
 

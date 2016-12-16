@@ -161,6 +161,9 @@
         ;; highlight matching chars (same as isearch)
         '(ivy-minibuffer-match-face-2 ((t (:background "#ad7b57" :foreground "#303030"))))
 
+        ;; Helm
+        '(helm-selection ((t (:background "#2e2e37"))))
+
         ;; Highlight Indent Guides
         '(highlight-indent-guides-odd-face ((t (:background "#252530"))))
         '(highlight-indent-guides-even-face ((t (:background "#1b1b24"))))
