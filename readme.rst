@@ -12,18 +12,12 @@ Notes
 
 Added extra faces for:
 
-- gnus.
-- org-mode.
-- ivy-mode.
-- helm-mode.
-- highlight-indent-guides.
-
-
-Differences the Original
-------------------------
-
-- Numbers currently don't use their own color
-  *(not supported by Emacs by default)*.
+- ``gnus``.
+- ``org-mode``.
+- ``ivy-mode``.
+- ``helm-mode``.
+- ``highlight-indent-guides``.
+- ``highlight-number`` *(needed to match the original themes number color)*.
 
 
 Additions, corrections, and improvements are most welcome.
