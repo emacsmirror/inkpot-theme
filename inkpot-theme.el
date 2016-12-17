@@ -28,7 +28,7 @@
 
 ;;; Code:
 
-(deftheme inkpot "Inkpot theme, dark color scheme with bright easily identifiable colors.")
+(deftheme inkpot "Dark color scheme with bright easily identifiable colors.")
 
 (custom-theme-set-faces
   'inkpot
