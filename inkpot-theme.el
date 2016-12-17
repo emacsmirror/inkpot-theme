@@ -159,6 +159,10 @@
         ;; highlight-numbers (melpa)
         '(highlight-numbers-number ((t (:foreground "#f0ad6d"))))
 
+        ;; auto-complete (melpa)
+        '(ac-candidate-face ((t (:foreground "#ffffff" :background "#4e4e8f"))))
+        '(ac-selection-face ((t (:foreground "#ffffff" :background "#2e2e3f" :weight bold))))
+
         ;; ivy (melpa)
         '(ivy-current-match ((t (:background "#4e4e8f" :foreground "#ffffff"))))
         ;; highlight matching chars (same as isearch)

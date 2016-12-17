@@ -16,6 +16,7 @@ Added extra faces for:
 - ``org-mode``.
 - ``ivy-mode``.
 - ``helm-mode``.
+- ``auto-complete``.
 - ``highlight-indent-guides``.
 - ``highlight-number`` *(needed to match the original themes number color)*.
 
