@@ -12,6 +12,7 @@ Notes
 
 Added extra faces for:
 
+- ``neotree``.
 - ``gnus``.
 - ``org-mode``.
 - ``ivy-mode``.

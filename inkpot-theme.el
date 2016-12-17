@@ -171,6 +171,14 @@
         ;; helm (melpa)
         '(helm-selection ((t (:background "#2e2e37"))))
 
+        ;; neotree
+        '(neo-banner-face ((t (:foreground "#cd8b00"))))
+        '(neo-header-face ((t (:foreground "#cd8b00"))))
+        '(neo-root-dir-face ((t (:foreground "#808bed"))))
+        '(neo-dir-link-face ((t (:foreground "#808bed"))))
+        '(neo-expand-btn-face ((t (:foreground "#808bed"))))
+        '(neo-file-link-face ((t (:foreground "#cfbfad"))))
+
         ;; highlight-indent-guides (melpa)
         '(highlight-indent-guides-odd-face ((t (:background "#252530"))))
         '(highlight-indent-guides-even-face ((t (:background "#1b1b24"))))
