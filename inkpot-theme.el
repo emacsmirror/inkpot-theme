@@ -2,7 +2,7 @@
 
 ;; Author: Sarah Iovan <sarah@hwaetageek.com>
 ;;         Campbell Barton <ideasman42@gmail.com>
-;; URL: http://github.com/ideasman42/emacs24-inkpot.git
+;; URL: https://github.com/ideasman42/emacs-inkpot-theme
 ;; Version: 0.1
 ;; Keywords: color, theme
 
@@ -41,6 +41,7 @@
  '(fringe ((t (:background "#2e2e2e" :foreground "#8b8bcd"))))
  '(linum ((t (:background "#2e2e2e" :foreground "#8b8bcd"))))
  '(cursor ((t (:background "#8b8bff" :foreground "#cfdfef"))))
+ '(show-paren-match ((t (:background "#4e4e8f"))))
  '(show-paren-match-face ((t (:background "#4e4e8f"))))
 
  ; isearch
