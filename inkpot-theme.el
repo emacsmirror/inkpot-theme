@@ -169,6 +169,16 @@
  ;; highlight matching chars (same as isearch)
  '(ivy-minibuffer-match-face-2 ((t (:background "#ad7b57" :foreground "#303030"))))
 
+ ;; company (melpa)
+ '(company-tooltip ((t (:background "#4e4e8f" :foreground "#ffffff"))))
+ '(company-tooltip-selection ((t (:background "#2e2e3f" :weight bold))))
+ '(company-tooltip-annotation ((t (:foreground "#cfbfad"))))
+ '(company-tooltip-common ((t (:foreground "#303030" :background "#ad7b57"))))
+
+ '(company-scrollbar-bg ((t (:background "#6e6eaf"))))
+ ;; not based on original theme, could change
+ '(company-scrollbar-fg ((t (:background "#000000"))))
+
  ;; helm (melpa)
  '(helm-selection ((t (:background "#2e2e37"))))
 
