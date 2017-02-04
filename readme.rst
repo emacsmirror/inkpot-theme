@@ -12,9 +12,16 @@ Notes
 
 Added extra faces for:
 
-- ``neotree``.
-- ``gnus``.
+Formats:
+
+- ``latex-mode``.
 - ``org-mode``.
+- ``rst-mode`` (reStructuredText).
+
+Plugins:
+
+- ``gnus``.
+- ``neotree``.
 - ``ivy-mode``.
 - ``helm-mode``.
 - ``auto-complete``.
