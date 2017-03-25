@@ -161,6 +161,9 @@
  '(font-latex-match-reference-keywords ((t (:foreground "#708090"))))
  '(font-latex-match-variable-keywords ((t (:foreground "#708090"))))
 
+ ;; Haskell
+ '(haskell-operator-face ((t (:foreground "#737dd5"))))
+
  ;; reStructuredText
  '(rst-external ((t (:foreground "#ff8bff"))))
  '(rst-definition ((t (:foreground "#409090"))))
