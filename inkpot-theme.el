@@ -43,6 +43,12 @@
  '(cursor ((t (:background "#8b8bff" :foreground "#cfdfef"))))
  '(show-paren-match ((t (:background "#4e4e8f"))))
  '(show-paren-match-face ((t (:background "#4e4e8f"))))
+ '(link ((t (:foreground "#ff8bff"))))
+ '(link-visited ((t (:foreground "#cb6ecbv"))))  ; not a vim color, just a little darker
+
+ ; additions that fit in with the general theme
+ '(button ((t (:underline t :foreground "#ff8bff"))))
+ '(escape-glyph ((t (:foreground "#8b8bcd"))))   ; not matching gvim, just nice color
 
  ; isearch
  ;
