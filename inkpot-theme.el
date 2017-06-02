@@ -225,7 +225,7 @@
  '(neo-banner-face ((t (:foreground "#cd8b00"))))
  '(neo-header-face ((t (:foreground "#cd8b00"))))
  '(neo-root-dir-face ((t (:foreground "#808bed"))))
- '(neo-dir-link-face ((t (:foreground "#808bed"))))
+ '(neo-dir-link-face ((t (:foreground "#00ff8b"))))
  '(neo-expand-btn-face ((t (:foreground "#808bed"))))
  '(neo-file-link-face ((t (:foreground "#cfbfad"))))
 
