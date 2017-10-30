@@ -10,6 +10,14 @@ This theme is quite close to
 Notes
 -----
 
+Tested to work well with:
+
+- ``c-mode``.
+- ``cmake-mode``.
+- ``markdown-mode``.
+- ``python-mode``.
+- ``rust-mode``.
+
 Added extra faces for:
 
 Formats:
