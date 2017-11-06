@@ -59,6 +59,11 @@
  '(link ((t (:foreground "#ff8bff"))))
  '(link-visited ((t (:foreground "#cb6ecbv"))))  ; not a vim color, just a little darker
 
+ ;; white-space
+ '(whitespace-trailing ((nil (:background "#343443" :foreground nil))))
+ '(whitespace-space ((nil (:background nil :foreground "#434357"))))
+ '(whitespace-tab ((nil (:background nil :foreground "#434357"))))
+
  ; additions that fit in with the general theme
  '(button ((t (:underline t :foreground "#ff8bff"))))
  '(escape-glyph ((t (:foreground "#8b8bcd"))))   ; not matching gvim, just nice color
