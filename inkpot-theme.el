@@ -241,6 +241,9 @@
  '(highlight-indent-guides-odd-face ((t (:background "#252530"))))
  '(highlight-indent-guides-even-face ((t (:background "#1b1b24"))))
 
+ ;; visual-indentation-mode (stand alone package)
+ '(visual-indentation-light-face ((t (:background "#343443"))))
+ '(visual-indentation-dark-face ((t (:background "#252530"))))
 )
 ;;;###autoload
 (when load-file-name
