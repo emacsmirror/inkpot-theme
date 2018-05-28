@@ -12,31 +12,45 @@ Notes
 
 Tested to work well with:
 
-- ``c-mode``.
-- ``cmake-mode``.
-- ``haskell-mode``.
-- ``python-mode``.
-- ``rust-mode``.
+Programming Languages:
 
-Added extra faces for:
+   - ``c-mode``.
+   - ``haskell-mode``.
+   - ``java-mode``.
+   - ``rust-mode``.
 
-Formats:
+Build Systems:
 
-- ``latex-mode``.
-- ``markdown-mode``.
-- ``org-mode``.
-- ``rst-mode`` (reStructuredText).
+   - ``cmake-mode``.
+   - ``makefile-mode``.
+
+Scripting Languages:
+
+   - ``lua-mode``.
+   - ``python-mode``.
+
+Shells:
+
+   - ``bat-mode``.
+   - ``shell-mode``.
+
+Markup Languages:
+
+   - ``latex-mode``.
+   - ``markdown-mode``.
+   - ``org-mode``.
+   - ``rst-mode`` (reStructuredText).
 
 Plugins:
 
-- ``auto-complete``.
-- ``gnus``.
-- ``helm-mode``.
-- ``highlight-indent-guides``.
-- ``highlight-number`` *(needed to match the original themes number color)*.
-- ``ivy-mode``.
-- ``neotree``.
-- ``visual-indentation-mode``.
+   - ``auto-complete``.
+   - ``gnus``.
+   - ``helm-mode``.
+   - ``highlight-indent-guides``.
+   - ``highlight-number`` *(needed to match the original themes number color)*.
+   - ``ivy-mode``.
+   - ``neotree``.
+   - ``visual-indentation-mode``.
 
 
 Additions, corrections, and improvements are most welcome.
