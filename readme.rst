@@ -14,7 +14,7 @@ Tested to work well with:
 
 - ``c-mode``.
 - ``cmake-mode``.
-- ``markdown-mode``.
+- ``haskell-mode``.
 - ``python-mode``.
 - ``rust-mode``.
 
@@ -23,6 +23,7 @@ Added extra faces for:
 Formats:
 
 - ``latex-mode``.
+- ``markdown-mode``.
 - ``org-mode``.
 - ``rst-mode`` (reStructuredText).
 
