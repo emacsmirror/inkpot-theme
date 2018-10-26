@@ -44,6 +44,7 @@ Markup Languages:
 Plugins:
 
    - ``auto-complete``.
+   - ``display-line-numbers``.
    - ``gnus``.
    - ``helm-mode``.
    - ``highlight-indent-guides``.
