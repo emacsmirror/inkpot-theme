@@ -60,6 +60,7 @@
  '(cursor ((t (:background "#8b8bff" :foreground "#cfdfef"))))
  '(show-paren-match ((t (:background "#4e4e8f"))))
  '(show-paren-match-face ((t (:background "#4e4e8f"))))
+ '(show-paren-match-expression ((t (:background "#2e2e3f"))))
  '(link ((t (:foreground "#ff8bff"))))
  '(link-visited ((t (:foreground "#cb6ecbv"))))  ; not a vim color, just a little darker
 
