@@ -101,6 +101,16 @@
  '(font-lock-type-face ((t (:foreground "#ff8bff"))))
  '(font-lock-variable-name-face ((t nil)))
  '(font-lock-warning-face ((t (:foreground "#ffffff" :background "#6e2e2e"))))
+
+  ;; diff-mode
+  ;;
+  ;; Not from the inkpot palette, dark colors so we can see the refined colors properly.
+ '(diff-added ((t (:background "#163616"))))
+ '(diff-removed ((t (:background "#361616"))))
+  ;; Refine colors for emacs 27+.
+ '(diff-refine-added ((t (:background "#306d30"))))
+ '(diff-refine-removed ((t (:background "#6d3030"))))
+
  '(w3m-anchor ((t (:foreground "#c080d0"))))
  '(info-xref ((t (:foreground "#409090"))))
  '(info-menu-star ((t (:foreground "#409090"))))

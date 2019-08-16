@@ -41,6 +41,10 @@ Markup Languages:
    - ``org-mode``.
    - ``rst-mode`` (reStructuredText).
 
+Other:
+
+   - ``diff-mode`` with refine colors for emacs 27+.
+
 Plugins:
 
    - ``auto-complete``.
