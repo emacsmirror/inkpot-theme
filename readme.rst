@@ -54,6 +54,7 @@ Plugins:
    - ``highlight-indent-guides``.
    - ``highlight-number`` *(needed to match the original themes number color)*.
    - ``ivy-mode``.
+   - ``lsp-mode``.
    - ``neotree``.
    - ``visual-indentation-mode``.
 

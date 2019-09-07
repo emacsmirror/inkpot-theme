@@ -223,6 +223,10 @@
  ;; highlight-numbers (melpa)
  '(highlight-numbers-number ((t (:foreground "#f0ad6d"))))
 
+ ;; lsp-mode
+ '(lsp-face-highlight-read ((t (:background "#343443"))))
+ '(lsp-face-highlight-textual ((t (:background "#343443"))))
+
  ;; auto-complete (melpa)
  '(ac-candidate-face ((t (:foreground "#ffffff" :background "#4e4e8f"))))
  '(ac-selection-face ((t (:foreground "#ffffff" :background "#2e2e3f" :weight bold))))
