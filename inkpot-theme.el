@@ -84,7 +84,6 @@
                    :box (:line-width -1 :color "#7070a0")))))
  '(mode-line-inactive ((t (:bold t :foreground "#708090" :background "#3e3e5e"
                             :box (:line-width -1 :color "#7070a0")))))
- '(mode-line-buffer-id ((t (:bold t :foreground "#b9b9b9" :background "#3e3e5e"))))
  '(minibuffer-prompt ((t (:bold t :foreground "#708090"))))
  '(default-italic ((t (:italic t))))
  '(font-lock-builtin-face ((t (:foreground "#ff8bff"))))
