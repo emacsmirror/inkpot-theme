@@ -223,6 +223,7 @@
 
   ;; lsp-mode
   '(lsp-face-highlight-read ((t (:background "#343443"))))
+  '(lsp-face-highlight-write ((t (:background "#343443"))))
   '(lsp-face-highlight-textual ((t (:background "#343443"))))
 
   ;; auto-complete (melpa)
