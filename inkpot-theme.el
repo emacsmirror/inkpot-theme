@@ -47,13 +47,13 @@
   '(default ((t (:background "#1e1e27" :foreground "#cfbfad"))))
   '(font-lock-builtin-face ((t (:foreground "#cfbfad"))))
   '(region ((t (:background "#4e4e8f" :foreground "#ffffff"))))
-  '(secondary-selection ((t (:foreground "#b38363" :inverse-video t)))) ; match gvim secondary selection
+  '(secondary-selection ((t (:foreground "#b38363" :inverse-video t)))) ;; Match gvim secondary selection.
   '(highlight ((t (:background "#404040"))))
   '(hl-line ((t (:background "#2e2e37"))))
   '(fringe ((t (:background "#2e2e2e" :foreground "#8b8bcd"))))
-  ;; old 'linum' mode,
+  ;; Old 'linum' mode.
   '(linum ((t (:background "#2e2e2e" :foreground "#8b8bcd"))))
-  ;; emacs 26+ 'display-line-numbers-mode'
+  ;; Emacs 26+ 'display-line-numbers-mode'.
   '(line-number ((t (:background "#2e2e2e" :foreground "#8b8bcd"))))
   '(line-number-current-line ((t (:bold t :background "#1e1e27" :foreground "#ffcd00"))))
   '(cursor ((t (:background "#8b8bff" :foreground "#cfdfef"))))
@@ -61,21 +61,21 @@
   '(show-paren-match-face ((t (:background "#4e4e8f"))))
   '(show-paren-match-expression ((t (:background "#2e2e3f"))))
   '(link ((t (:foreground "#ff8bff"))))
-  '(link-visited ((t (:foreground "#cb6ecbv")))) ; not a vim color, just a little darker
+  '(link-visited ((t (:foreground "#cb6ecbv")))) ;; Not a vim color, just a little darker.
 
-  ;; white-space
+  ;; white-space.
   '(whitespace-trailing ((nil (:background "#343443" :foreground nil))))
   '(whitespace-space ((nil (:background nil :foreground "#434357"))))
   '(whitespace-tab ((nil (:background nil :foreground "#434357"))))
 
-  ; additions that fit in with the general theme
+  ;; Additions that fit in with the general theme.
   '(button ((t (:underline t :foreground "#ff8bff"))))
-  '(escape-glyph ((t (:foreground "#8b8bcd")))) ; not matching gvim, just nice color
+  '(escape-glyph ((t (:foreground "#8b8bcd")))) ;; Not matching gvim, just nice color.
 
-  ; isearch
-  ;
-  ; note: original theme doesn't show different colors here,
-  ; simply use bold for 'isearch'.
+  ;; isearch
+  ;;
+  ;; Note: original theme doesn't show different colors here,
+  ;; simply use bold for 'isearch'.
   '(isearch ((t (:bold t :foreground "#303030" :background "#ad7b57"))))
   '(lazy-highlight ((t (:foreground "#303030" :background "#ad7b57"))))
   '(isearch-fail ((t (:foreground "#ffffff" :background "#ce4e4e"))))
@@ -93,7 +93,7 @@
   '(font-lock-comment-face ((t (:foreground "#cd8b00"))))
   '(font-lock-comment-delimiter-face ((t (:foreground "#cd8b00"))))
   ;'(font-lock-doc-face ((t (:foreground "#c080d0"))))
-  '(font-lock-doc-face ((t (:foreground "#808bed")))) ; alternate comment face
+  '(font-lock-doc-face ((t (:foreground "#808bed")))) ;; Alternate comment face.
   '(font-lock-constant-face ((t (:foreground "#409090"))))
   '(font-lock-function-name-face ((t (:foreground "#c080d0"))))
   '(font-lock-keyword-face ((t (:foreground "#808bed"))))
@@ -177,10 +177,10 @@
   '(font-latex-match-reference-keywords ((t (:foreground "#708090"))))
   '(font-latex-match-variable-keywords ((t (:foreground "#708090"))))
 
-  ;; Haskell
+  ;; Haskell.
   '(haskell-operator-face ((t (:foreground "#737dd5"))))
 
-  ;; Org-Mode
+  ;; Org-Mode.
   '(org-hide ((t (:foreground "#708090"))))
   '(org-level-1 ((t (:bold t :foreground "#8b8bcd" :height 1.0))))
   '(org-level-2 ((t (:bold nil :foreground "#409090" :height 1.0))))
@@ -203,16 +203,16 @@
   '(org-agenda-date-weekend ((t (:weight normal :foreground "8b8bcd"))))
   '(org-agenda-date-today ((t (:weight bold :foreground "#cd8b00"))))
 
-  ;; reStructuredText
+  ;; reStructuredText.
   '(rst-external ((t (:foreground "#ff8bff"))))
   '(rst-definition ((t (:foreground "#409090"))))
   '(rst-directive ((t (:foreground "#808bed"))))
   '(rst-emphasis1 ((t (:italic t))))
   '(rst-emphasis2 ((t (:weight bold t))))
   '(rst-reference ((t (:foreground "#ff8bff"))))
-  ;; titles baseline
+  ;; titles baseline.
   '(rst-adornment ((t (:foreground "#af4f4b"))))
-  ;; titles
+  ;; titles.
   '(rst-level-1 ((t (:foreground "#af4f4b"))))
   '(rst-level-2 ((t (:foreground "#af4f4b"))))
   '(rst-level-3 ((t (:foreground "#af4f4b"))))
@@ -220,39 +220,39 @@
   '(rst-level-5 ((t (:foreground "#af4f4b"))))
   '(rst-level-6 ((t (:foreground "#af4f4b"))))
 
-  ;; Colors for popular plugins
+  ;; Colors for popular plugins.
 
-  ;; highlight-numbers (melpa)
+  ;; highlight-numbers (melpa).
   '(highlight-numbers-number ((t (:foreground "#f0ad6d"))))
 
-  ;; lsp-mode
+  ;; lsp-mode.
   '(lsp-face-highlight-read ((t (:background "#343443"))))
   '(lsp-face-highlight-write ((t (:background "#343443"))))
   '(lsp-face-highlight-textual ((t (:background "#343443"))))
 
-  ;; auto-complete (melpa)
+  ;; auto-complete (melpa).
   '(ac-candidate-face ((t (:foreground "#ffffff" :background "#4e4e8f"))))
   '(ac-selection-face ((t (:foreground "#ffffff" :background "#2e2e3f" :weight bold))))
 
-  ;; ivy (melpa)
+  ;; ivy (melpa).
   '(ivy-current-match ((t (:background "#4e4e8f" :foreground "#ffffff"))))
-  ;; highlight matching chars (same as isearch)
+  ;; highlight matching chars (same as isearch).
   '(ivy-minibuffer-match-face-2 ((t (:background "#ad7b57" :foreground "#303030"))))
 
-  ;; company (melpa)
+  ;; company (melpa).
   '(company-tooltip ((t (:background "#4e4e8f" :foreground "#ffffff"))))
   '(company-tooltip-selection ((t (:background "#2e2e3f" :weight bold))))
   '(company-tooltip-annotation ((t (:foreground "#cfbfad"))))
   '(company-tooltip-common ((t (:foreground "#303030" :background "#ad7b57"))))
 
   '(company-scrollbar-bg ((t (:background "#6e6eaf"))))
-  ;; not based on original theme, could change
+  ;; Not based on original theme, could change.
   '(company-scrollbar-fg ((t (:background "#000000"))))
 
-  ;; helm (melpa)
+  ;; helm (melpa).
   '(helm-selection ((t (:background "#2e2e37"))))
 
-  ;; neotree
+  ;; neotree.
   '(neo-banner-face ((t (:foreground "#cd8b00"))))
   '(neo-header-face ((t (:foreground "#cd8b00"))))
   '(neo-root-dir-face ((t (:foreground "#808bed"))))
@@ -260,13 +260,14 @@
   '(neo-expand-btn-face ((t (:foreground "#808bed"))))
   '(neo-file-link-face ((t (:foreground "#cfbfad"))))
 
-  ;; highlight-indent-guides (melpa)
+  ;; highlight-indent-guides (melpa).
   '(highlight-indent-guides-odd-face ((t (:background "#252530"))))
   '(highlight-indent-guides-even-face ((t (:background "#1b1b24"))))
 
-  ;; visual-indentation-mode (stand alone package)
+  ;; visual-indentation-mode (stand alone package).
   '(visual-indentation-light-face ((t (:background "#343443"))))
   '(visual-indentation-dark-face ((t (:background "#252530")))))
+
 ;;;###autoload
 (when load-file-name
   (add-to-list 'custom-theme-load-path (file-name-as-directory (file-name-directory load-file-name))))
