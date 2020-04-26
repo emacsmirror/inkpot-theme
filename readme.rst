@@ -1,7 +1,8 @@
 Emacs InkPot Theme
 ==================
 
-This theme is a port of the Vim InkPot theme for Emacs ``deftheme``.
+This theme is a port of the Vim InkPot theme,
+available on melpa as `inkpot-theme <https://melpa.org/#/inkpot-theme>`__.
 
 This theme is quite close to
 `Vim's wonderful InkPot theme <http://www.vim.org/scripts/script.php?script_id=1143>`__.
