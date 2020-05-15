@@ -49,6 +49,7 @@ Other:
 Plugins:
 
    - ``auto-complete``.
+   - ``diff-hl``
    - ``display-line-numbers``.
    - ``gnus``.
    - ``helm-mode``.

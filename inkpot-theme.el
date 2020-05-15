@@ -61,7 +61,7 @@
   '(show-paren-match-face ((t (:background "#4e4e8f"))))
   '(show-paren-match-expression ((t (:background "#2e2e3f"))))
   '(link ((t (:foreground "#ff8bff"))))
-  '(link-visited ((t (:foreground "#cb6ecbv")))) ;; Not a vim color, just a little darker.
+  '(link-visited ((t (:foreground "#cb6ecb")))) ;; Not a vim color, just a little darker.
 
   ;; white-space.
   '(whitespace-trailing ((nil (:background "#343443" :foreground nil))))
@@ -224,6 +224,12 @@
 
   ;; highlight-numbers (melpa).
   '(highlight-numbers-number ((t (:foreground "#f0ad6d"))))
+
+  ;; diff-hl (melpa)
+  ;; Use brighter colors to stand out from fringe.
+  '(diff-hl-insert ((t (:background "#306d30"))))
+  '(diff-hl-delete ((t (:background "#af4f4b"))))
+  '(diff-hl-change ((t (:background "#4e4e8f"))))
 
   ;; lsp-mode.
   '(lsp-face-highlight-read ((t (:background "#343443"))))
