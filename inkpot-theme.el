@@ -104,6 +104,9 @@
   '(font-lock-variable-name-face ((t nil)))
   '(font-lock-warning-face ((t (:foreground "#ffffff" :background "#6e2e2e"))))
 
+  ;; which-func (shows in the mode-line).
+  '(which-func ((t (:bold t :foreground "#b9b9b9"))))
+
   ;; diff-mode
   ;;
   ;; Not from the inkpot palette, dark colors so we can see the refined colors properly.

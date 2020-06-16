@@ -46,6 +46,11 @@ Other:
 
    - ``diff-mode`` with refine colors for emacs 27+.
 
+Bundled Packages:
+   - ``which-func``
+   - ``white-space``
+   - ``xref``
+
 Plugins:
 
    - ``auto-complete``.
