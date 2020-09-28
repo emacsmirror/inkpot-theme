@@ -14,36 +14,30 @@ Notes
 Tested to work well with:
 
 Programming Languages:
-
    - ``c-mode``.
    - ``haskell-mode``.
    - ``java-mode``.
    - ``rust-mode``.
 
 Build Systems:
-
    - ``cmake-mode``.
    - ``makefile-mode``.
 
 Scripting Languages:
-
    - ``lua-mode``.
    - ``python-mode``.
 
 Shells:
-
    - ``bat-mode``.
    - ``shell-mode``.
 
 Markup Languages:
-
    - ``latex-mode``.
    - ``markdown-mode``.
    - ``org-mode``.
    - ``rst-mode`` (reStructuredText).
 
 Other:
-
    - ``diff-mode`` with refine colors for emacs 27+.
 
 Bundled Packages:
@@ -52,7 +46,6 @@ Bundled Packages:
    - ``xref``
 
 Plugins:
-
    - ``auto-complete``.
    - ``diff-hl``
    - ``display-line-numbers``.
