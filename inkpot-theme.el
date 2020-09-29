@@ -234,7 +234,7 @@
   '(diff-hl-delete ((t (:background "#af4f4b"))))
   '(diff-hl-change ((t (:background "#4e4e8f"))))
 
-  ;; lsp-mode.
+  ;; lsp-mode (melpa).
   '(lsp-face-highlight-read ((t (:background "#343443"))))
   '(lsp-face-highlight-write ((t (:background "#343443"))))
   '(lsp-face-highlight-textual ((t (:background "#343443"))))
@@ -261,7 +261,7 @@
   ;; helm (melpa).
   '(helm-selection ((t (:background "#2e2e37"))))
 
-  ;; neotree.
+  ;; neotree (melpa).
   '(neo-banner-face ((t (:foreground "#cd8b00"))))
   '(neo-header-face ((t (:foreground "#cd8b00"))))
   '(neo-root-dir-face ((t (:foreground "#808bed"))))
