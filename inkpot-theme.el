@@ -51,9 +51,6 @@
   '(highlight ((t (:background "#404040"))))
   '(hl-line ((t (:background "#2e2e37"))))
   '(fringe ((t (:background "#2e2e2e" :foreground "#8b8bcd"))))
-  ;; Old 'linum' mode.
-  '(linum ((t (:background "#2e2e2e" :foreground "#8b8bcd"))))
-  ;; Emacs 26+ 'display-line-numbers-mode'.
   '(line-number ((t (:background "#2e2e2e" :foreground "#8b8bcd"))))
   '(line-number-current-line ((t (:bold t :background "#1e1e27" :foreground "#ffcd00"))))
   '(cursor ((t (:background "#8b8bff" :foreground "#cfdfef"))))
