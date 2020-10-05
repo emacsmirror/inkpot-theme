@@ -45,51 +45,10 @@
 
 (custom-theme-set-faces 'inkpot
   '(default ((t (:background "#1e1e27" :foreground "#cfbfad"))))
-  '(font-lock-builtin-face ((t (:foreground "#cfbfad"))))
-  '(region ((t (:background "#4e4e8f" :foreground "#ffffff"))))
-  '(secondary-selection ((t (:foreground "#b38363" :inverse-video t)))) ;; Match gvim secondary selection.
-  '(highlight ((t (:background "#404040"))))
-  '(hl-line ((t (:background "#2e2e37"))))
-  '(fringe ((t (:background "#2e2e2e" :foreground "#8b8bcd"))))
-  '(line-number ((t (:background "#2e2e2e" :foreground "#8b8bcd"))))
-  '(line-number-current-line ((t (:bold t :background "#1e1e27" :foreground "#ffcd00"))))
-  '(cursor ((t (:background "#8b8bff" :foreground "#cfdfef"))))
-  '(show-paren-match ((t (:background "#4e4e8f"))))
-  '(show-paren-match-face ((t (:background "#4e4e8f"))))
-  '(show-paren-match-expression ((t (:background "#2e2e3f"))))
-  '(link ((t (:foreground "#ff8bff"))))
-  '(link-visited ((t (:foreground "#cb6ecb")))) ;; Not a vim color, just a little darker.
-
-  ;; white-space.
-  '(whitespace-trailing ((nil (:background "#343443" :foreground nil))))
-  '(whitespace-space ((nil (:background nil :foreground "#434357"))))
-  '(whitespace-tab ((nil (:background nil :foreground "#434357"))))
-
-  ;; Additions that fit in with the general theme.
-  '(button ((t (:underline t :foreground "#ff8bff"))))
-  '(escape-glyph ((t (:foreground "#8b8bcd")))) ;; Not matching gvim, just nice color.
-
-  ;; isearch
-  ;;
-  ;; Note: original theme doesn't show different colors here,
-  ;; simply use bold for 'isearch'.
-  '(isearch ((t (:bold t :foreground "#303030" :background "#ad7b57"))))
-  '(lazy-highlight ((t (:foreground "#303030" :background "#ad7b57"))))
-  '(isearch-fail ((t (:foreground "#ffffff" :background "#ce4e4e"))))
-
-  ;; xref mode.
-  '(xref-line-number ((t (:background "#2e2e2e" :foreground "#8b8bcd"))))
-
-  '(header-line ((t (:bold t :foreground "#b9b9b9" :background "#3e3e5e" :box (:line-width -1 :color "#7070a0")))))
-  '(header-line-inactive ((t (:bold t :foreground "#708090" :background "#3e3e5e" :box (:line-width -1 :color "#7070a0")))))
-  '(mode-line ((t (:bold t :foreground "#b9b9b9" :background "#3e3e5e" :box (:line-width -1 :color "#7070a0")))))
-  '(mode-line-inactive ((t (:bold t :foreground "#708090" :background "#3e3e5e" :box (:line-width -1 :color "#7070a0")))))
-  '(minibuffer-prompt ((t (:bold t :foreground "#708090"))))
-  '(default-italic ((t (:italic t))))
+  ;; Default (font-lock)
   '(font-lock-builtin-face ((t (:foreground "#ff8bff"))))
   '(font-lock-comment-face ((t (:foreground "#cd8b00"))))
   '(font-lock-comment-delimiter-face ((t (:foreground "#cd8b00"))))
-  ;'(font-lock-doc-face ((t (:foreground "#c080d0"))))
   '(font-lock-doc-face ((t (:foreground "#808bed")))) ;; Alternate comment face.
   '(font-lock-constant-face ((t (:foreground "#409090"))))
   '(font-lock-function-name-face ((t (:foreground "#c080d0"))))
@@ -100,6 +59,46 @@
   '(font-lock-type-face ((t (:foreground "#ff8bff"))))
   '(font-lock-variable-name-face ((t nil)))
   '(font-lock-warning-face ((t (:foreground "#ffffff" :background "#6e2e2e"))))
+
+  '(region ((t (:background "#4e4e8f" :foreground "#ffffff"))))
+  '(secondary-selection ((t (:foreground "#b38363" :inverse-video t)))) ;; Match gvim secondary selection.
+  '(highlight ((t (:background "#404040"))))
+  '(hl-line ((t (:background "#2e2e37"))))
+  '(fringe ((t (:background "#2e2e2e" :foreground "#8b8bcd"))))
+  '(cursor ((t (:background "#8b8bff" :foreground "#cfdfef"))))
+  '(show-paren-match-face ((t (:background "#4e4e8f"))))
+  '(show-paren-match ((t (:background "#4e4e8f"))))
+  '(show-paren-match-expression ((t (:background "#2e2e3f"))))
+  ;; Note: original theme doesn't show different colors here,
+  ;; simply use bold for 'isearch'.
+  '(isearch ((t (:bold t :foreground "#303030" :background "#ad7b57"))))
+  '(isearch-fail ((t (:foreground "#ffffff" :background "#ce4e4e"))))
+  '(lazy-highlight ((t (:foreground "#303030" :background "#ad7b57"))))
+
+  '(minibuffer-prompt ((t (:bold t :foreground "#708090"))))
+  '(link ((t (:foreground "#ff8bff"))))
+  '(link-visited ((t (:foreground "#cb6ecb")))) ;; Not a vim color, just a little darker.
+
+  '(line-number ((t (:background "#2e2e2e" :foreground "#8b8bcd"))))
+  '(line-number-current-line ((t (:bold t :background "#1e1e27" :foreground "#ffcd00"))))
+
+  ;; white-space.
+  '(whitespace-trailing ((nil (:background "#343443" :foreground nil))))
+  '(whitespace-space ((nil (:background nil :foreground "#434357"))))
+  '(whitespace-tab ((nil (:background nil :foreground "#434357"))))
+
+  ;; Additions that fit in with the general theme.
+  '(button ((t (:underline t :foreground "#ff8bff"))))
+  '(escape-glyph ((t (:foreground "#8b8bcd")))) ;; Not matching gvim, just nice color.
+
+  ;; xref mode.
+  '(xref-line-number ((t (:background "#2e2e2e" :foreground "#8b8bcd"))))
+
+  '(header-line ((t (:bold t :foreground "#b9b9b9" :background "#3e3e5e" :box (:line-width -1 :color "#7070a0")))))
+  '(header-line-inactive ((t (:bold t :foreground "#708090" :background "#3e3e5e" :box (:line-width -1 :color "#7070a0")))))
+  '(mode-line ((t (:bold t :foreground "#b9b9b9" :background "#3e3e5e" :box (:line-width -1 :color "#7070a0")))))
+  '(mode-line-inactive ((t (:bold t :foreground "#708090" :background "#3e3e5e" :box (:line-width -1 :color "#7070a0")))))
+  '(default-italic ((t (:italic t))))
 
   ;; which-func (shows in the mode-line).
   '(which-func ((t (:bold t :foreground "#b9b9b9"))))
