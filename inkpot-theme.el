@@ -1,8 +1,8 @@
-;;; inkpot-theme.el --- port of vim's inkpot theme
+;;; inkpot-theme.el --- port of vim's inkpot theme -*- lexical-binding: t -*-
 
 ;; Author: Sarah Iovan <sarah@hwaetageek.com>
 ;;         Campbell Barton <ideasman42@gmail.com>
-;; URL: https://github.com/ideasman42/emacs-inkpot-theme
+;; URL: https://gitlab.com/ideasman42/emacs-inkpot-theme
 ;; Version: 0.1
 ;; Keywords: color, theme
 
