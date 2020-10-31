@@ -184,6 +184,12 @@
    `(diff-refine-added ((t (:background ,ip-green-mid))))
    `(diff-refine-removed ((t (:background ,ip-red-dark+0.2))))
 
+   ;; dired-mode
+   `(dired-directory ((t (:foreground ,ip-green-bright))))
+   `(dired-header ((t (:foreground ,ip-orange-bright))))
+   `(dired-symlink ((t (:bold t :foreground ,ip-yellow-bright))))
+   `(dired-broken-symlink ((t (:bold t :foreground ,ip-yellow-bright :background ,ip-red-dark))))
+
    `(w3m-anchor ((t (:foreground ,ip-pink-dark))))
    `(info-xref ((t (:foreground ,ip-cyan-mid))))
    `(info-menu-star ((t (:foreground ,ip-cyan-mid))))
