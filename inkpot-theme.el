@@ -75,7 +75,7 @@
   '(isearch-fail ((t (:foreground "#ffffff" :background "#ce4e4e"))))
   '(lazy-highlight ((t (:foreground "#303030" :background "#ad7b57"))))
 
-  '(minibuffer-prompt ((t (:bold t :foreground "#708090"))))
+  '(minibuffer-prompt ((t (:bold t :foreground "#7e7eae"))))
   '(link ((t (:foreground "#ff8bff"))))
   '(link-visited ((t (:foreground "#cb6ecb")))) ;; Not a vim color, just a little darker.
 
@@ -95,9 +95,9 @@
   '(xref-line-number ((t (:background "#2e2e2e" :foreground "#8b8bcd"))))
 
   '(header-line ((t (:bold t :foreground "#b9b9b9" :background "#3e3e5e" :box (:line-width -1 :color "#7070a0")))))
-  '(header-line-inactive ((t (:bold t :foreground "#708090" :background "#3e3e5e" :box (:line-width -1 :color "#7070a0")))))
+  '(header-line-inactive ((t (:bold nil :foreground "#b9b9b9" :background "#3e3e5e" :box (:line-width -1 :color "#7070a0")))))
   '(mode-line ((t (:bold t :foreground "#b9b9b9" :background "#3e3e5e" :box (:line-width -1 :color "#7070a0")))))
-  '(mode-line-inactive ((t (:bold t :foreground "#708090" :background "#3e3e5e" :box (:line-width -1 :color "#7070a0")))))
+  '(mode-line-inactive ((t (:bold nil :foreground "#b9b9b9" :background "#3e3e5e" :box (:line-width -1 :color "#7070a0")))))
   '(default-italic ((t (:italic t))))
 
   ;; which-func (shows in the mode-line).
