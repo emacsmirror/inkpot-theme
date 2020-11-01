@@ -184,6 +184,24 @@
    `(diff-refine-added ((t (:background ,ip-green-mid))))
    `(diff-refine-removed ((t (:background ,ip-red-dark+0.2))))
 
+   ;; ediff-mode
+   `(ediff-current-diff-A ((t (:foreground ,ip-cream-light :background ,ip-red-mid))))
+   `(ediff-current-diff-Ancestor ((t (:foreground ,ip-cream-light :background ,ip-red-mid))))
+   `(ediff-current-diff-B ((t (:foreground ,ip-cream-light :background ,ip-green-mid))))
+   `(ediff-current-diff-C ((t (:foreground ,ip-cream-light :background ,ip-cyan-dark))))
+   `(ediff-even-diff-A ((t (:background ,ip-slate-dark+7.6))))
+   `(ediff-even-diff-Ancestor ((t (:background ,ip-slate-dark+7.6))))
+   `(ediff-even-diff-B ((t (:background ,ip-slate-dark+7.6))))
+   `(ediff-even-diff-C ((t (:background ,ip-slate-dark+7.6))))
+   `(ediff-fine-diff-A ((t (:foreground ,ip-cream-light :background ,ip-red-light :weight bold))))
+   `(ediff-fine-diff-Ancestor ((t (:foreground ,ip-cream-light :background ,ip-red-light weight bold))))
+   `(ediff-fine-diff-B ((t (:foreground ,ip-cream-light :background ,ip-green-bright :weight bold))))
+   `(ediff-fine-diff-C ((t (:foreground ,ip-cream-light :background ,ip-cyan-mid :weight bold ))))
+   `(ediff-odd-diff-A ((t (:background ,ip-slate-dark+15.7))))
+   `(ediff-odd-diff-Ancestor ((t (:background ,ip-slate-dark+15.7))))
+   `(ediff-odd-diff-B ((t (:background ,ip-slate-dark+15.7))))
+   `(ediff-odd-diff-C ((t (:background ,ip-slate-dark+15.7))))
+
    ;; dired-mode
    `(dired-directory ((t (:foreground ,ip-green-bright))))
    `(dired-header ((t (:foreground ,ip-orange-bright))))

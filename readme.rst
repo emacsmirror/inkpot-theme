@@ -39,6 +39,7 @@ Markup Languages:
 
 Other:
    - ``diff-mode`` with refine colors for emacs 27+.
+   - ``ediff-mode``
 
 Bundled Packages:
    - ``which-func``
