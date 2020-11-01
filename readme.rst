@@ -7,6 +7,18 @@ available on melpa as `inkpot-theme <https://melpa.org/#/inkpot-theme>`__.
 This theme is quite close to
 `Vim's wonderful InkPot theme <http://www.vim.org/scripts/script.php?script_id=1143>`__.
 
+.. figure:: https://gitlab.com/ideasman42/emacs-inkpot-theme/uploads/f3ef46ea09be13cd15ae2758063242c4/inkpot_c.png
+   :scale: 50 %
+   :align: center
+
+   Screenshot of C code.
+
+.. figure:: https://gitlab.com/ideasman42/emacs-inkpot-theme/uploads/fd19e132621116a87ffc02ac7545b8b2/inkpot_elisp.png
+   :scale: 50 %
+   :align: center
+
+   Screenshot of Emacs-Lisp code.
+
 
 Notes
 -----
