@@ -69,6 +69,7 @@ Plugins:
    - ``ivy-mode``.
    - ``lsp-mode``.
    - ``neotree``.
+   - ``treemacs``.
    - ``visual-indentation-mode``.
 
 
