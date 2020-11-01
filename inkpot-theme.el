@@ -114,11 +114,22 @@
 
   (custom-theme-set-faces
    'inkpot
+
+   ;; Basic coloring.
+   `(button ((t (:underline t :foreground ,ip-pink-light))))
+   `(link ((t (:foreground ,ip-pink-light))))
+   `(link-visited ((t (:foreground ,ip-pink-dark)))) ;; Not a vim color, just a little darker.
    `(default ((t (:background ,ip-slate-dark :foreground ,ip-cream-light))))
+   `(cursor ((t (:background ,ip-blue-bright+1.6))))
+   `(widget-field ((t (:foreground ,ip-pink-dark :background ,ip-yellow-bright)))) ;; FIXME
+   `(escape-glyph ((t (:foreground ,ip-slate-lite+17.7)))) ;; Not matching gvim, just nice color.
+   `(fringe ((t (:background ,ip-grey+18 :foreground ,ip-slate-lite+17.7))))
+   `(highlight ((t (:background ,ip-grey+25))))
+
    ;; Default (font-lock)
    `(font-lock-builtin-face ((t (:foreground ,ip-pink-light))))
    `(font-lock-comment-face ((t (:foreground ,ip-orange-bright))))
-   `(font-lock-comment-delimiter-face ((t (:foreground ,ip-orange-bright))))
+   `(font-lock-comment-delimiter-face ((t (:inherit font-lock-comment-face))))
    `(font-lock-doc-face ((t (:foreground ,ip-blue-bright)))) ;; Alternate comment face.
    `(font-lock-constant-face ((t (:foreground ,ip-cyan-mid))))
    `(font-lock-function-name-face ((t (:foreground ,ip-pink-dark))))
@@ -130,13 +141,23 @@
    '(font-lock-variable-name-face ((t nil)))
    `(font-lock-warning-face ((t (:foreground ,ip-white :background ,ip-red-dark))))
 
+   ;; Mode line.
+   ;; Follow gvim, inactive mode-line isn't bold.
+   `(header-line ((t (:bold t :foreground ,ip-grey+73 :background ,ip-slate-dark+15.7
+                            :box (:line-width -1 :color ,ip-slate-light)))))
+   `(header-line-inactive ((t (:foreground ,ip-grey+73 :background ,ip-slate-dark+15.7
+                                           :box (:line-width -1 :color ,ip-slate-light)))))
+   `(mode-line ((t (:bold t :foreground ,ip-grey+73 :background ,ip-slate-dark+15.7
+                          :box (:line-width -1 :color ,ip-slate-light)))))
+   `(mode-line-inactive ((t (:foreground ,ip-grey+73 :background ,ip-slate-dark+15.7
+                                         :box (:line-width -1 :color ,ip-slate-light)))))
+   '(default-italic ((t (:italic t))))
+
+
    `(region ((t (:background ,ip-slate-mid :foreground ,ip-white))))
    ;; Match gvim secondary selection (which is the background inverted).
    `(secondary-selection ((t (:foreground ,ip-slate-dark-inverted :inverse-video t))))
-   `(highlight ((t (:background ,ip-grey+25))))
    `(hl-line ((t (:background ,ip-slate-dark+7.6))))
-   `(fringe ((t (:background ,ip-grey+18 :foreground ,ip-slate-lite+17.7))))
-   `(cursor ((t (:background ,ip-blue-bright+1.6))))
    `(show-paren-match-face ((t (:background ,ip-slate-mid))))
    `(show-paren-match ((t (:background ,ip-slate-mid))))
    `(show-paren-match-expression ((t (:background ,ip-slate-dark+7.9))))
@@ -147,8 +168,6 @@
    `(lazy-highlight ((t (:foreground ,ip-grey+19 :background ,ip-brown-mid))))
 
    `(minibuffer-prompt ((t (:bold t :foreground ,ip-slate-light+5.5))))
-   `(link ((t (:foreground ,ip-pink-light))))
-   `(link-visited ((t (:foreground ,ip-pink-dark)))) ;; Not a vim color, just a little darker.
 
    `(line-number ((t (:background ,ip-grey+18 :foreground ,ip-slate-lite+17.7))))
    `(line-number-current-line ((t (:bold t :background ,ip-slate-dark :foreground ,ip-yellow-bright))))
@@ -158,19 +177,9 @@
    '(whitespace-space ((nil (:background nil :foreground "#434357"))))
    '(whitespace-tab ((nil (:background nil :foreground "#434357"))))
 
-   ;; Additions that fit in with the general theme.
-   `(button ((t (:underline t :foreground ,ip-pink-light))))
-   `(escape-glyph ((t (:foreground ,ip-slate-lite+17.7)))) ;; Not matching gvim, just nice color.
-
    ;; xref mode.
    `(xref-line-number ((t (:background ,ip-grey+18 :foreground ,ip-slate-lite+17.7))))
 
-   ;; Follow gvim, inactive mode-line isn't bold.
-   `(header-line ((t (:bold t :foreground ,ip-grey+73 :background ,ip-slate-dark+15.7 :box (:line-width -1 :color ,ip-slate-light)))))
-   `(header-line-inactive ((t (:foreground ,ip-grey+73 :background ,ip-slate-dark+15.7 :box (:line-width -1 :color ,ip-slate-light)))))
-   `(mode-line ((t (:bold t :foreground ,ip-grey+73 :background ,ip-slate-dark+15.7 :box (:line-width -1 :color ,ip-slate-light)))))
-   `(mode-line-inactive ((t (:foreground ,ip-grey+73 :background ,ip-slate-dark+15.7 :box (:line-width -1 :color ,ip-slate-light)))))
-   '(default-italic ((t (:italic t))))
 
    ;; which-func (shows in the mode-line).
    `(which-func ((t (:bold t :foreground ,ip-grey+73))))
