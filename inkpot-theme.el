@@ -141,6 +141,10 @@
    '(font-lock-variable-name-face ((t nil)))
    `(font-lock-warning-face ((t (:foreground ,ip-white :background ,ip-red-dark))))
 
+   `(font-lock-negation-char-face ((t (:foreground ,ip-cream-light)))) ;; currently no change.
+   `(font-lock-regexp-grouping-construct ((t (:foreground ,ip-blue-bright :weight bold))))
+   `(font-lock-regexp-grouping-backslash ((t (:foreground ,ip-pink-dark :weight bold))))
+
    ;; Mode line.
    ;; Follow gvim, inactive mode-line isn't bold.
    `(header-line ((t (:bold t :foreground ,ip-grey+73 :background ,ip-slate-dark+15.7
