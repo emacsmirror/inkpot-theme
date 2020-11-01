@@ -125,6 +125,8 @@
    `(escape-glyph ((t (:foreground ,ip-slate-lite+17.7)))) ;; Not matching gvim, just nice color.
    `(fringe ((t (:background ,ip-grey+18 :foreground ,ip-slate-lite+17.7))))
    `(highlight ((t (:background ,ip-grey+25))))
+   `(success ((t (:foreground ,ip-green-bright))))
+   `(warning ((t (:foreground ,ip-white :background ,ip-brown-mid+13))))
 
    ;; Default (font-lock)
    `(font-lock-builtin-face ((t (:foreground ,ip-pink-light))))
