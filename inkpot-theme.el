@@ -380,6 +380,9 @@
    `(highlight-indent-guides-odd-face ((t (:background ,ip-slate-dark+15.7))))
    `(highlight-indent-guides-even-face ((t (:background ,ip-slate-dark+7.9))))
 
+   ;; highlight-operators (melpa).
+   `(highlight-operators-face ((t (:foreground ,ip-blue-bright))))
+
    ;; visual-indentation-mode (stand alone package).
    `(visual-indentation-light-face ((t (:background ,ip-slate-dark+15.7))))
    `(visual-indentation-dark-face ((t (:background ,ip-slate-dark+7.9))))))

@@ -66,6 +66,7 @@ Plugins:
    - ``helm-mode``.
    - ``highlight-indent-guides``.
    - ``highlight-number`` *(needed to match the original themes number color)*.
+   - ``highlight-operators``.
    - ``ivy-mode``.
    - ``lsp-mode``.
    - ``neotree``.

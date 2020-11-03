@@ -3,6 +3,11 @@
 Change Log
 ##########
 
+
+- 2020-11-03
+
+  - Add ``highlight-operators`` color.
+
 - 2020-01-27
 
   - Add ``ediff`` mode colors.
