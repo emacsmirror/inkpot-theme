@@ -190,6 +190,12 @@
    ;; which-func (shows in the mode-line).
    `(which-func ((t (:bold t :foreground ,ip-grey+73))))
 
+   ;; compilation-mode
+   ;;
+   ;; Not matching vim, since there doesn't seem to be exact equivalents.
+   `(compilation-warning ((t (:foreground ,ip-orange-bright))))
+   `(compilation-error ((t (:foreground ,ip-red-mid))))
+
    ;; diff-mode
    ;;
    ;; Not from the inkpot palette, dark colors so we can see the refined colors properly.

@@ -3,6 +3,9 @@
 Change Log
 ##########
 
+- 2020-11-12
+
+  - Add ``compilation-mode`` colors.
 
 - 2020-11-03
 
