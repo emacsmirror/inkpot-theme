@@ -3,6 +3,9 @@
 Change Log
 ##########
 
+- 2021-01-09
+  - Add ``tab-bar-mode`` colors.
+
 - 2020-11-12
 
   - Add ``compilation-mode`` colors.

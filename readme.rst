@@ -54,6 +54,7 @@ Other:
    - ``ediff-mode``
 
 Bundled Packages:
+   - ``tab-bar-mode``
    - ``which-func``
    - ``white-space``
    - ``xref``

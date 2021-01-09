@@ -186,6 +186,10 @@
    ;; xref mode.
    `(xref-line-number ((t (:background ,ip-grey+18 :foreground ,ip-slate-lite+17.7))))
 
+   ;; tab-bar-mode.
+   `(tab-bar ((t (:bold t :foreground ,ip-grey+73 :background ,ip-slate-dark+7.6))))
+   `(tab-bar-tab ((t (:foreground ,ip-grey+73 :background ,ip-slate-dark+15.7 :box (:line-width -1 :color ,ip-slate-light)))))
+   `(tab-bar-tab-inactive ((t (:bold nil :italic t :foreground ,ip-grey+73 :background ,ip-slate-dark+15.7))))
 
    ;; which-func (shows in the mode-line).
    `(which-func ((t (:bold t :foreground ,ip-grey+73))))
