@@ -3,6 +3,9 @@
 Change Log
 ##########
 
+- 2021-04-27
+  - Add ``error`` & ``show-paren-mismatch`` colors.
+
 - 2021-01-09
   - Add ``tab-bar-mode`` colors.
 

@@ -24,7 +24,6 @@
 ;;; Commentary:
 
 ;; This file is based on Per Vognsen's port of the original vim theme.
-;; The original Emacs color-theme version is found at http://www.emacswiki.org/emacs/ColorThemeInkpot.
 
 ;;; Code:
 
@@ -116,17 +115,24 @@
    'inkpot
 
    ;; Basic coloring.
-   `(button ((t (:underline t :foreground ,ip-pink-light))))
-   `(link ((t (:foreground ,ip-pink-light))))
-   `(link-visited ((t (:foreground ,ip-pink-dark)))) ;; Not a vim color, just a little darker.
    `(default ((t (:background ,ip-slate-dark :foreground ,ip-cream-light))))
+   '(default-italic ((t (:italic t))))
    `(cursor ((t (:background ,ip-blue-bright+1.6))))
-   `(widget-field ((t (:foreground ,ip-pink-dark :background ,ip-yellow-bright)))) ;; FIXME
    `(escape-glyph ((t (:foreground ,ip-slate-lite+17.7)))) ;; Not matching gvim, just nice color.
    `(fringe ((t (:background ,ip-grey+18 :foreground ,ip-slate-lite+17.7))))
    `(highlight ((t (:background ,ip-grey+25))))
+   `(region ((t (:background ,ip-slate-mid :foreground ,ip-white))))
+   ;; Match gvim secondary selection (which is the background inverted).
+   `(secondary-selection ((t (:foreground ,ip-slate-dark-inverted :inverse-video t))))
+   ;; Success output.
    `(success ((t (:foreground ,ip-green-bright))))
    `(warning ((t (:foreground ,ip-white :background ,ip-brown-mid+13))))
+   `(error ((t (:foreground ,ip-white :background ,ip-red-dark))))
+   ;; UI.
+   `(button ((t (:underline t :foreground ,ip-pink-light))))
+   `(link ((t (:foreground ,ip-pink-light))))
+   `(link-visited ((t (:foreground ,ip-pink-dark)))) ;; Not a vim color, just a little darker.
+   `(widget-field ((t (:foreground ,ip-pink-dark :background ,ip-yellow-bright)))) ;; FIXME
 
    ;; Default (font-lock)
    `(font-lock-builtin-face ((t (:foreground ,ip-pink-light))))
@@ -157,16 +163,15 @@
                           :box (:line-width -1 :color ,ip-slate-light)))))
    `(mode-line-inactive ((t (:foreground ,ip-grey+73 :background ,ip-slate-dark+15.7
                                          :box (:line-width -1 :color ,ip-slate-light)))))
-   '(default-italic ((t (:italic t))))
 
-
-   `(region ((t (:background ,ip-slate-mid :foreground ,ip-white))))
-   ;; Match gvim secondary selection (which is the background inverted).
-   `(secondary-selection ((t (:foreground ,ip-slate-dark-inverted :inverse-video t))))
    `(hl-line ((t (:background ,ip-slate-dark+7.6))))
+
    `(show-paren-match-face ((t (:background ,ip-slate-mid))))
    `(show-paren-match ((t (:background ,ip-slate-mid))))
    `(show-paren-match-expression ((t (:background ,ip-slate-dark+7.9))))
+   ;; GVIM doesn't contain this color, use error color.
+   `(show-paren-mismatch ((t (:foreground ,ip-white :background ,ip-red-dark))))
+
    ;; Note: original theme doesn't show different colors here,
    ;; simply use bold for 'isearch'.
    `(isearch ((t (:bold t :foreground ,ip-grey+19 :background ,ip-brown-mid))))
