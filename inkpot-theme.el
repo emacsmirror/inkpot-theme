@@ -118,11 +118,11 @@
    `(default ((t (:background ,ip-slate-dark :foreground ,ip-cream-light))))
    '(default-italic ((t (:italic t))))
    `(cursor ((t (:background ,ip-blue-bright+1.6))))
-   `(escape-glyph ((t (:foreground ,ip-slate-lite+17.7)))) ;; Not matching gvim, just nice color.
+   `(escape-glyph ((t (:foreground ,ip-slate-lite+17.7)))) ;; Not matching GVIM, just nice color.
    `(fringe ((t (:background ,ip-grey+18 :foreground ,ip-slate-lite+17.7))))
    `(highlight ((t (:background ,ip-grey+25))))
    `(region ((t (:background ,ip-slate-mid :foreground ,ip-white))))
-   ;; Match gvim secondary selection (which is the background inverted).
+   ;; Match GVIM secondary selection (which is the background inverted).
    `(secondary-selection ((t (:foreground ,ip-slate-dark-inverted :inverse-video t))))
    ;; Success output.
    `(success ((t (:foreground ,ip-green-bright))))
@@ -154,7 +154,7 @@
    `(font-lock-regexp-grouping-backslash ((t (:foreground ,ip-pink-dark :weight bold))))
 
    ;; Mode line.
-   ;; Follow gvim, inactive mode-line isn't bold.
+   ;; Follow GVIM, inactive mode-line isn't bold.
    `(header-line ((t (:bold t :foreground ,ip-grey+73 :background ,ip-slate-dark+15.7
                             :box (:line-width -1 :color ,ip-slate-light)))))
    `(header-line-inactive ((t (:foreground ,ip-grey+73 :background ,ip-slate-dark+15.7
