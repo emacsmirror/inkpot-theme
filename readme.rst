@@ -61,10 +61,11 @@ Bundled Packages:
    - ``white-space``
    - ``xref``
 
-Plugins:
+Other Packages:
    - ``auto-complete``.
    - ``diff-hl``
    - ``display-line-numbers``.
+   - ``fancy-dabbrev``.
    - ``gnus``.
    - ``helm-mode``.
    - ``highlight-indent-guides``.

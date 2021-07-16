@@ -3,6 +3,9 @@
 Change Log
 ##########
 
+- 2021-07-16
+  - Add ``fancy-dabbrev`` mode colors.
+
 - 2021-04-27
   - Add ``error`` & ``show-paren-mismatch`` colors.
 
