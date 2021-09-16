@@ -71,6 +71,8 @@ Other Packages:
    - ``highlight-indent-guides``.
    - ``highlight-number`` *(needed to match the original themes number color)*.
    - ``highlight-operators``.
+   - ``highlight-symbol``.
+     ``idle-highlight-mode``
    - ``ivy-mode``.
    - ``lsp-mode``.
    - ``neotree``.
