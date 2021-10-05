@@ -3,6 +3,9 @@
 Change Log
 ##########
 
+- 2021-10-05
+  - Improve header contrast for ``diff-mode``.
+
 - 2021-07-16
   - Add ``fancy-dabbrev`` mode colors.
 

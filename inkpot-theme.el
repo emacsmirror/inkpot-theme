@@ -55,7 +55,7 @@
 
       (ip-brown-bright          "#f0ad6d") ;; fg:Number
       (ip-brown-light           "#ffcd8b") ;; fg:Constant fg:String
-      ;; (ip-brown-light+30.9   "#ffffcd") ;; fg:DiffText fg:DiffChange fg:DiffDelete fg:DiffAdd
+      (ip-brown-light+30.9      "#ffffcd") ;; fg:DiffText fg:DiffChange fg:DiffDelete fg:DiffAdd
 
       (ip-cream-light           "#cfbfad") ;; fg:Normal fg:MBENormal fg:MatchParen
 
@@ -213,6 +213,17 @@
    ;; Refine colors for emacs 27+.
    `(diff-refine-added ((t (:background ,ip-green-mid))))
    `(diff-refine-removed ((t (:background ,ip-red-dark+0.2))))
+
+   ;; Headers:
+   ;; These are displayed grouped.
+   `(diff-header ((t (:foreground ,ip-brown-light+30.9 :background ,ip-grey+18))))
+   ;; Use the same colors, too many tones here makes diff headers overly busy.
+   `(diff-index ((t (:foreground ,ip-brown-light+30.9 :background ,ip-grey+25))))
+   `(diff-file-header ((t (:foreground ,ip-brown-light+30.9 :background ,ip-grey+25))))
+   ;; These are displayed side-by-side, a rare exception where a black
+   ;; background is useful to visually separate content.
+   `(diff-hunk-header ((t (:foreground ,ip-cyan-mid :background ,ip-black))))
+   `(diff-function ((t (:foreground ,ip-yellow-bright :background ,ip-black))))
 
    ;; ediff-mode
    `(ediff-current-diff-A ((t (:foreground ,ip-cream-light :background ,ip-red-mid))))
