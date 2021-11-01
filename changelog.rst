@@ -3,6 +3,9 @@
 Change Log
 ##########
 
+- 2021-11-01
+  - Add colors for ``magit-commit-mark``.
+
 - 2021-10-05
   - Improve header contrast for ``diff-mode``.
 

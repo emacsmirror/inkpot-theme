@@ -371,6 +371,12 @@
    `(lsp-face-highlight-read ((t (:background ,ip-slate-dark+7.9))))
    `(lsp-face-highlight-write ((t (:background ,ip-slate-dark+7.9))))
    `(lsp-face-highlight-textual ((t (:background ,ip-slate-dark+7.9))))
+   ;; Arbitrary, could be a little lighter?
+   `(lsp-face-semhl-comment ((t (:foreground ,ip-grey+25))))
+
+   ;; magit-commit-mark (melpa).
+   `(magit-commit-mark-read-face ((t (:foreground ,ip-slate-light))))
+   `(magit-commit-mark-unread-face ((t (:foreground ,ip-green-bright))))
 
    ;; auto-complete (melpa).
    `(ac-candidate-face ((t (:foreground ,ip-white :background ,ip-slate-mid))))

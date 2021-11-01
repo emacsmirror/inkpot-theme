@@ -62,6 +62,7 @@ Bundled Packages:
    - ``xref``
 
 Other Packages:
+     ``idle-highlight-mode``
    - ``auto-complete``.
    - ``diff-hl``
    - ``display-line-numbers``.
@@ -72,9 +73,9 @@ Other Packages:
    - ``highlight-number`` *(needed to match the original themes number color)*.
    - ``highlight-operators``.
    - ``highlight-symbol``.
-     ``idle-highlight-mode``
    - ``ivy-mode``.
    - ``lsp-mode``.
+   - ``magit-commit-mark``.
    - ``neotree``.
    - ``treemacs``.
    - ``visual-indentation-mode``.
