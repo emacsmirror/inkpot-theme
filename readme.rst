@@ -62,7 +62,7 @@ Bundled Packages:
    - ``xref``
 
 Other Packages:
-     ``idle-highlight-mode``
+   - ``idle-highlight-mode``
    - ``auto-complete``.
    - ``diff-hl``
    - ``display-line-numbers``.
