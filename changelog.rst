@@ -3,6 +3,10 @@
 Change Log
 ##########
 
+
+- 2021-11-30
+  - Add colors for ``mode-line-active``.
+
 - 2021-11-01
   - Add colors for ``magit-commit-mark``.
 

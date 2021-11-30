@@ -159,8 +159,10 @@
                             :box (:line-width -1 :color ,ip-slate-light)))))
    `(header-line-inactive ((t (:foreground ,ip-grey+73 :background ,ip-slate-dark+15.7
                                            :box (:line-width -1 :color ,ip-slate-light)))))
-   `(mode-line ((t (:bold t :foreground ,ip-grey+73 :background ,ip-slate-dark+15.7
-                          :box (:line-width -1 :color ,ip-slate-light)))))
+   `(mode-line ((t (:foreground ,ip-grey+73 :background ,ip-slate-dark+15.7
+                                :box (:line-width -1 :color ,ip-slate-light)))))
+   `(mode-line-active ((t (:foreground ,ip-grey+73 :background ,ip-slate-dark+15.7
+                                       :box (:line-width -1 :color ,ip-slate-light) :bold t))))
    `(mode-line-inactive ((t (:foreground ,ip-grey+73 :background ,ip-slate-dark+15.7
                                          :box (:line-width -1 :color ,ip-slate-light)))))
 
