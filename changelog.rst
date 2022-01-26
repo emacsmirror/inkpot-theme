@@ -4,6 +4,9 @@ Change Log
 ##########
 
 
+- 2022-01-26
+  - Add colors for ``scroll-bar``.
+
 - 2021-11-30
   - Add colors for ``mode-line-active``.
 

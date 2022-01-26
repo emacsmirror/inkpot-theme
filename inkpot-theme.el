@@ -128,11 +128,14 @@
    `(success ((t (:foreground ,ip-green-bright))))
    `(warning ((t (:foreground ,ip-white :background ,ip-brown-mid+13))))
    `(error ((t (:foreground ,ip-white :background ,ip-red-dark))))
+
    ;; UI.
    `(button ((t (:underline t :foreground ,ip-pink-light))))
    `(link ((t (:foreground ,ip-pink-light))))
    `(link-visited ((t (:foreground ,ip-pink-dark)))) ;; Not a vim color, just a little darker.
    `(widget-field ((t (:foreground ,ip-pink-dark :background ,ip-yellow-bright)))) ;; FIXME
+   ;; Follow other window border colors (mode-line in this case), don't blend in with the fringe.
+   `(scroll-bar ((t (:foreground ,ip-grey+73 :background ,ip-slate-dark+15.7))))
 
    ;; Default (font-lock)
    `(font-lock-builtin-face ((t (:foreground ,ip-pink-light))))
