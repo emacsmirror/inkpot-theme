@@ -132,7 +132,6 @@
    `(font-lock-function-name-face ((t (:foreground ,ip-pink-dark))))
    `(font-lock-keyword-face ((t (:foreground ,ip-blue-bright))))
    `(font-lock-preprocessor-face ((t (:foreground ,ip-cyan-mid))))
-   `(font-lock-reference-face ((t (:foreground ,ip-blue-bright :bold t))))
    `(font-lock-string-face ((t (:foreground ,ip-brown-light :background ,ip-grey+25))))
    `(font-lock-type-face ((t (:foreground ,ip-pink-light))))
    '(font-lock-variable-name-face ((t nil)))
