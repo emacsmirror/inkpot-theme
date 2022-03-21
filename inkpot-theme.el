@@ -101,13 +101,13 @@
    'inkpot
 
    ;; Basic coloring.
-   `(default ((t (:background ,ip-slate-dark :foreground ,ip-cream-light))))
+   `(default ((t (:foreground ,ip-cream-light :background ,ip-slate-dark))))
    '(default-italic ((t (:italic t))))
    `(cursor ((t (:background ,ip-blue-bright+1.6))))
    `(escape-glyph ((t (:foreground ,ip-slate-lite+17.7)))) ;; Not matching GVIM, just nice color.
-   `(fringe ((t (:background ,ip-grey+18 :foreground ,ip-slate-lite+17.7))))
+   `(fringe ((t (:foreground ,ip-slate-lite+17.7 :background ,ip-grey+18))))
    `(highlight ((t (:background ,ip-grey+25))))
-   `(region ((t (:background ,ip-slate-mid :foreground ,ip-white))))
+   `(region ((t (:foreground ,ip-white :background ,ip-slate-mid))))
    ;; Match GVIM secondary selection (which is the background inverted).
    `(secondary-selection ((t (:foreground ,ip-slate-dark-inverted :inverse-video t))))
    ;; Success output.
@@ -132,7 +132,7 @@
    `(font-lock-function-name-face ((t (:foreground ,ip-pink-dark))))
    `(font-lock-keyword-face ((t (:foreground ,ip-blue-bright))))
    `(font-lock-preprocessor-face ((t (:foreground ,ip-cyan-mid))))
-   `(font-lock-reference-face ((t (:bold t :foreground ,ip-blue-bright))))
+   `(font-lock-reference-face ((t (:foreground ,ip-blue-bright :bold t))))
    `(font-lock-string-face ((t (:foreground ,ip-brown-light :background ,ip-grey+25))))
    `(font-lock-type-face ((t (:foreground ,ip-pink-light))))
    '(font-lock-variable-name-face ((t nil)))
@@ -144,8 +144,9 @@
 
    ;; Mode line.
    ;; Follow GVIM, inactive mode-line isn't bold.
-   `(header-line ((t (:bold t :foreground ,ip-grey+73 :background ,ip-slate-dark+15.7
-                            :box (:line-width -1 :color ,ip-slate-light)))))
+   `(header-line ((t (:foreground ,ip-grey+73 :background ,ip-slate-dark+15.7
+                                  :bold t
+                                  :box (:line-width -1 :color ,ip-slate-light)))))
    `(header-line-inactive ((t (:foreground ,ip-grey+73 :background ,ip-slate-dark+15.7
                                            :box (:line-width -1 :color ,ip-slate-light)))))
    `(mode-line ((t (:foreground ,ip-grey+73 :background ,ip-slate-dark+15.7
@@ -165,30 +166,30 @@
 
    ;; Note: original theme doesn't show different colors here,
    ;; simply use bold for 'isearch'.
-   `(isearch ((t (:bold t :foreground ,ip-grey+19 :background ,ip-brown-mid))))
+   `(isearch ((t (:foreground ,ip-grey+19 :background ,ip-brown-mid :bold t ))))
    `(isearch-fail ((t (:foreground ,ip-white :background ,ip-red-light))))
    `(lazy-highlight ((t (:foreground ,ip-grey+19 :background ,ip-brown-mid))))
 
-   `(minibuffer-prompt ((t (:bold t :foreground ,ip-slate-light+5.5))))
+   `(minibuffer-prompt ((t (:foreground ,ip-slate-light+5.5 :bold t ))))
 
-   `(line-number ((t (:background ,ip-grey+18 :foreground ,ip-slate-lite+17.7))))
-   `(line-number-current-line ((t (:bold t :background ,ip-slate-dark :foreground ,ip-yellow-bright))))
+   `(line-number ((t (:foreground ,ip-slate-lite+17.7 :background ,ip-grey+18))))
+   `(line-number-current-line ((t (:foreground ,ip-yellow-bright :background ,ip-slate-dark :bold t))))
 
    ;; white-space.
-   '(whitespace-trailing ((nil (:background "#343443" :foreground nil))))
-   '(whitespace-space ((nil (:background nil :foreground "#434357"))))
-   '(whitespace-tab ((nil (:background nil :foreground "#434357"))))
+   '(whitespace-trailing ((nil (:foreground nil :background "#343443"))))
+   '(whitespace-space ((nil (:foreground "#434357" :background nil))))
+   '(whitespace-tab ((nil (:foreground "#434357" :background nil))))
 
    ;; xref mode.
-   `(xref-line-number ((t (:background ,ip-grey+18 :foreground ,ip-slate-lite+17.7))))
+   `(xref-line-number ((t (:foreground ,ip-slate-lite+17.7 :background ,ip-grey+18))))
 
    ;; tab-bar-mode.
-   `(tab-bar ((t (:bold t :foreground ,ip-grey+73 :background ,ip-slate-dark+7.6))))
+   `(tab-bar ((t (:foreground ,ip-grey+73 :background ,ip-slate-dark+7.6 :bold t))))
    `(tab-bar-tab ((t (:foreground ,ip-grey+73 :background ,ip-slate-dark+15.7 :box (:line-width -1 :color ,ip-slate-light)))))
-   `(tab-bar-tab-inactive ((t (:bold nil :italic t :foreground ,ip-grey+73 :background ,ip-slate-dark+15.7))))
+   `(tab-bar-tab-inactive ((t (:foreground ,ip-grey+73 :background ,ip-slate-dark+15.7 :bold nil :italic t))))
 
    ;; which-func (shows in the mode-line).
-   `(which-func ((t (:bold t :foreground ,ip-grey+73))))
+   `(which-func ((t (:foreground ,ip-grey+73 :bold t))))
 
    ;; compilation-mode
    ;;
@@ -237,8 +238,8 @@
    ;; dired-mode
    `(dired-directory ((t (:foreground ,ip-green-bright))))
    `(dired-header ((t (:foreground ,ip-orange-bright))))
-   `(dired-symlink ((t (:bold t :foreground ,ip-yellow-bright))))
-   `(dired-broken-symlink ((t (:bold t :foreground ,ip-yellow-bright :background ,ip-red-dark))))
+   `(dired-symlink ((t (:foreground ,ip-yellow-bright :bold t))))
+   `(dired-broken-symlink ((t (:foreground ,ip-yellow-bright :background ,ip-red-dark :bold t))))
 
    `(w3m-anchor ((t (:foreground ,ip-pink-dark))))
    `(info-xref ((t (:foreground ,ip-cyan-mid))))
@@ -249,49 +250,49 @@
    '(gnus-cite-face-3 ((t (:foreground "#ad7fa8"))))
    '(gnus-cite-face-4 ((t (:foreground "#4090904"))))
    `(gnus-group-mail-1-empty-face ((t (:foreground ,ip-pink-dark))))
-   `(gnus-group-mail-1-face ((t (:bold t :foreground ,ip-pink-dark))))
+   `(gnus-group-mail-1-face ((t (:foreground ,ip-pink-dark :bold t))))
    `(gnus-group-mail-2-empty-face ((t (:foreground ,ip-cyan-mid))))
-   `(gnus-group-mail-2-face ((t (:bold t :foreground ,ip-cyan-mid))))
+   `(gnus-group-mail-2-face ((t (:foreground ,ip-cyan-mid :bold t))))
    '(gnus-group-mail-3-empty-face ((t (:foreground "#506dbd"))))
-   `(gnus-group-mail-3-face ((t (:bold t :foreground ,ip-orange-bright))))
-   `(gnus-group-mail-3 ((t (:bold t :foreground ,ip-orange-bright))))
+   `(gnus-group-mail-3-face ((t (:foreground ,ip-orange-bright :bold t))))
+   `(gnus-group-mail-3 ((t (:foreground ,ip-orange-bright :bold t))))
    `(gnus-group-mail-low-empty-face ((t (:foreground ,ip-slate-lite+17.7))))
-   `(gnus-group-mail-low-face ((t (:bold t :foreground,ip-slate-lite+17.7))))
+   `(gnus-group-mail-low-face ((t (:foreground,ip-slate-lite+17.7 :bold t))))
    `(gnus-group-news-1-empty-face ((t (:foreground ,ip-pink-dark))))
-   `(gnus-group-news-1-face ((t (:bold t :foreground ,ip-pink-dark))))
+   `(gnus-group-news-1-face ((t (:foreground ,ip-pink-dark :bold t))))
    `(gnus-group-news-2-empty-face ((t (:foreground ,ip-cyan-mid))))
-   `(gnus-group-news-2-face ((t (:bold t :foreground ,ip-cyan-mid))))
+   `(gnus-group-news-2-face ((t (:foreground ,ip-cyan-mid :bold t))))
    '(gnus-group-news-3-empty-face ((t (:foreground "#506dbd"))))
    '(gnus-group-news-3-empty ((t (:foreground "#506dbd"))))
-   `(gnus-group-news-3-face ((t (:bold t :foreground ,ip-orange-bright))))
+   `(gnus-group-news-3-face ((t (:foreground ,ip-orange-bright :bold t))))
    `(gnus-group-news-low-empty-face ((t (:foreground,ip-slate-lite+17.7))))
-   `(gnus-group-news-low-face ((t (:bold t :foreground,ip-slate-lite+17.7))))
-   '(gnus-header-name-face ((t (:bold t :foreground "#ab60ed"))))
-   `(gnus-header-from ((t (:bold t :foreground ,ip-orange-bright))))
+   `(gnus-group-news-low-face ((t (:foreground,ip-slate-lite+17.7 :bold t))))
+   '(gnus-header-name-face ((t (:foreground "#ab60ed" :bold t))))
+   `(gnus-header-from ((t (:foreground ,ip-orange-bright :bold t))))
    `(gnus-header-subject ((t (:foreground ,ip-blue-bright))))
-   `(gnus-header-content ((t (:italic t :foreground ,ip-cyan-mid))))
-   `(gnus-header-newsgroups-face ((t (:italic t :bold t :foreground ,ip-pink-light))))
-   '(gnus-signature-face ((t (:italic t :foreground "#708090"))))
+   `(gnus-header-content ((t (:foreground ,ip-cyan-mid :italic t))))
+   `(gnus-header-newsgroups-face ((t (:foreground ,ip-pink-light :bold t :italic t))))
+   '(gnus-signature-face ((t (:foreground "#708090" :italic t))))
    `(gnus-summary-cancelled-face ((t (:foreground ,ip-orange-bright))))
    `(gnus-summary-cancelled ((t (:foreground ,ip-orange-bright))))
-   '(gnus-summary-high-ancient-face ((t (:bold t :foreground "#ab60ed"))))
-   `(gnus-summary-high-read-face ((t (:bold t :foreground ,ip-pink-dark))))
-   `(gnus-summary-high-ticked-face ((t (:bold t :foreground ,ip-red-mid))))
-   `(gnus-summary-high-unread-face ((t (:bold t :foreground ,ip-brown-light))))
-   `(gnus-summary-low-ancient-face ((t (:italic t :foreground ,ip-pink-dark))))
-   '(gnus-summary-low-read-face ((t (:italic t :foreground "#ab60ed"))))
-   `(gnus-summary-low-ticked-face ((t (:italic t :foreground ,ip-red-mid))))
-   `(gnus-summary-low-unread-face ((t (:italic t :foreground ,ip-brown-light))))
+   '(gnus-summary-high-ancient-face ((t (:foreground "#ab60ed" :bold t))))
+   `(gnus-summary-high-read-face ((t (:foreground ,ip-pink-dark :bold t))))
+   `(gnus-summary-high-ticked-face ((t (:foreground ,ip-red-mid :bold t))))
+   `(gnus-summary-high-unread-face ((t (:foreground ,ip-brown-light :bold t))))
+   `(gnus-summary-low-ancient-face ((t (:foreground ,ip-pink-dark :italic t))))
+   '(gnus-summary-low-read-face ((t (:foreground "#ab60ed" :italic t))))
+   `(gnus-summary-low-ticked-face ((t (:foreground ,ip-red-mid :italic t))))
+   `(gnus-summary-low-unread-face ((t (:foreground ,ip-brown-light :italic t))))
    `(gnus-summary-normal-ancient-face ((t (:foreground ,ip-slate-lite+17.7))))
    '(gnus-summary-normal-read-face ((t (:foreground "#2e3436"))))
    '(gnus-summary-normal-read ((t (:foreground "#2e3436"))))
    `(gnus-summary-normal-ticked-face ((t (:foreground ,ip-red-mid))))
    `(gnus-summary-normal-unread-face ((t (:foreground ,ip-brown-light))))
-   `(gnus-summary-selected ((t (:background ,ip-grey+25 :foreground ,ip-brown-light))))
-   `(gnus-header-from ((t (:bold t :foreground ,ip-orange-bright))))
+   `(gnus-summary-selected ((t (:foreground ,ip-brown-light :background ,ip-grey+25))))
+   `(gnus-header-from ((t (:foreground ,ip-orange-bright :bold t))))
    '(message-header-name-face ((t (:foreground "#ab60ed"))))
    '(message-header-name ((t (:foreground "#ab60ed"))))
-   `(message-header-newsgroups-face ((t (:italic t :bold t :foreground ,ip-pink-light))))
+   `(message-header-newsgroups-face ((t (:foreground ,ip-pink-light :bold t italic t))))
    `(message-header-other-face ((t (:foreground ,ip-cyan-mid))))
    `(message-header-other ((t (:foreground ,ip-cyan-mid))))
    `(message-header-xheader-face ((t (:foreground ,ip-cyan-mid))))
@@ -309,10 +310,10 @@
 
    ;; Org-Mode.
    '(org-hide ((t (:foreground "#708090"))))
-   `(org-level-1 ((t (:bold t :foreground ,ip-slate-lite+17.7 :height 1.0))))
-   `(org-level-2 ((t (:bold nil :foreground ,ip-cyan-mid :height 1.0))))
-   `(org-level-3 ((t (:bold t :foreground ,ip-orange-light :height 1.0))))
-   `(org-level-4 ((t (:bold nil :foreground ,ip-red-mid :height 1.0))))
+   `(org-level-1 ((t (:foreground ,ip-slate-lite+17.7 :height 1.0 :bold t))))
+   `(org-level-2 ((t (:foreground ,ip-cyan-mid :height 1.0 :bold nil))))
+   `(org-level-3 ((t (:foreground ,ip-orange-light :height 1.0 :bold t))))
+   `(org-level-4 ((t (:foreground ,ip-red-mid :height 1.0 :bold nil))))
    `(org-date ((t (:underline t :foreground ,ip-brown-bright))))
    `(org-footnote ((t (:underline t :foreground ,ip-orange-dark))))
    '(org-link ((t (:underline t :foreground "#708090"))))
@@ -322,8 +323,8 @@
    '(org-block ((t (:foreground "#708090"))))
    '(org-quote ((t (:inherit org-block :slant italic))))
    '(org-verse ((t (:inherit org-block :slant italic))))
-   `(org-todo ((t (:bold t :foreground ,ip-red-mid))))
-   `(org-done ((t (:bold t :foreground ,ip-cyan-mid))))
+   `(org-todo ((t (:foreground ,ip-red-mid :bold t))))
+   `(org-done ((t (:foreground ,ip-cyan-mid :bold t))))
    `(org-warning ((t (:underline t :foreground ,ip-cyan-mid))))
    `(org-agenda-structure ((t (:weight bold :foreground ,ip-red-mid))))
    `(org-agenda-date ((t (:foreground ,ip-cyan-mid))))
@@ -374,12 +375,12 @@
    `(ac-selection-face ((t (:foreground ,ip-white :background ,ip-slate-dark+7.9 :weight bold))))
 
    ;; ivy (melpa).
-   `(ivy-current-match ((t (:background ,ip-slate-mid :foreground ,ip-white))))
+   `(ivy-current-match ((t (:foreground ,ip-white :background ,ip-slate-mid))))
    ;; highlight matching chars (same as isearch).
-   `(ivy-minibuffer-match-face-2 ((t (:background ,ip-brown-mid :foreground ,ip-grey+19))))
+   `(ivy-minibuffer-match-face-2 ((t (:foreground ,ip-grey+19 :background ,ip-brown-mid))))
 
    ;; company (melpa).
-   `(company-tooltip ((t (:background ,ip-slate-mid :foreground ,ip-white))))
+   `(company-tooltip ((t (:foreground ,ip-white :background ,ip-slate-mid))))
    `(company-tooltip-selection ((t (:background ,ip-slate-dark+7.9 :weight bold))))
    `(company-tooltip-annotation ((t (:foreground ,ip-cream-light))))
    `(company-tooltip-common ((t (:foreground ,ip-grey+19 :background ,ip-brown-mid))))
