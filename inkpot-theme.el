@@ -365,6 +365,13 @@
    ;; Arbitrary, could be a little lighter?
    `(lsp-face-semhl-comment ((t (:foreground ,ip-grey+25))))
 
+    ;; Without this, inherit from `font-lock-type-face' face which isn't so nice.
+    `(lsp-face-semhl-interface ((t (:foreground ,ip-pink-dark))))
+    `(lsp-face-semhl-parameter ((t (:foreground ,ip-cream-light))))
+    `(lsp-face-semhl-variable ((t (:foreground ,ip-cream-light))))
+    `(lsp-face-semhl-constant ((t (:foreground ,ip-cyan-mid))))
+    `(lsp-face-semhl-function ((t (:foreground ,ip-pink-dark))))
+
    ;; magit-commit-mark (melpa).
    `(magit-commit-mark-read-face ((t (:foreground ,ip-slate-light))))
    `(magit-commit-mark-unread-face ((t (:foreground ,ip-green-bright))))
