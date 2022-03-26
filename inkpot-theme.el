@@ -154,6 +154,8 @@
                                        :box (:line-width -1 :color ,ip-slate-light) :bold t))))
    `(mode-line-inactive ((t (:foreground ,ip-grey+73 :background ,ip-slate-dark+15.7
                                          :box (:line-width -1 :color ,ip-slate-light)))))
+   `(mode-line-buffer-id ((t (:foreground ,ip-grey+73 :bold nil))))
+
 
    `(hl-line ((t (:background ,ip-slate-dark+7.6))))
 
