@@ -128,6 +128,7 @@
    `(font-lock-comment-face ((t (:foreground ,ip-orange-bright))))
    `(font-lock-comment-delimiter-face ((t (:inherit font-lock-comment-face))))
    `(font-lock-doc-face ((t (:foreground ,ip-blue-bright)))) ;; Alternate comment face.
+   `(font-lock-doc-markup-face ((t (:foreground ,ip-orange-dark))))
    `(font-lock-constant-face ((t (:foreground ,ip-cyan-mid))))
    `(font-lock-function-name-face ((t (:foreground ,ip-pink-dark))))
    `(font-lock-keyword-face ((t (:foreground ,ip-blue-bright))))
@@ -371,7 +372,7 @@
     `(lsp-face-semhl-interface ((t (:foreground ,ip-pink-dark))))
     `(lsp-face-semhl-parameter ((t (:foreground ,ip-cream-light))))
     `(lsp-face-semhl-variable ((t (:foreground ,ip-cream-light))))
-    `(lsp-face-semhl-constant ((t (:foreground ,ip-cyan-mid))))
+    `(lsp-face-semhl-constant ((t (:foreground ,ip-cream-light))))
     `(lsp-face-semhl-function ((t (:foreground ,ip-pink-dark))))
 
    ;; magit-commit-mark (melpa).

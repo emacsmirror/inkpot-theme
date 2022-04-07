@@ -3,6 +3,8 @@
 Change Log
 ##########
 
+- 2022-04-07
+  - Add colors for ``font-lock-doc-markup-face``.
 
 - 2022-01-26
   - Add colors for ``scroll-bar``.
