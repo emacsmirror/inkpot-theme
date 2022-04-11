@@ -3,6 +3,9 @@
 Change Log
 ##########
 
+- 2022-04-11
+  - Set heading colors for ``markdown-mode``.
+
 - 2022-04-07
   - Add colors for ``font-lock-doc-markup-face``.
 

@@ -349,6 +349,14 @@
    `(rst-level-4 ((t (:foreground ,ip-red-mid))))
    `(rst-level-5 ((t (:foreground ,ip-red-mid))))
    `(rst-level-6 ((t (:foreground ,ip-red-mid))))
+   ;; `markdown-mode`.
+   `(markdown-header-face-1 ((t (:foreground ,ip-red-mid))))
+   `(markdown-header-face-2 ((t (:foreground ,ip-red-mid))))
+   `(markdown-header-face-3 ((t (:foreground ,ip-red-mid))))
+   `(markdown-header-face-4 ((t (:foreground ,ip-red-mid))))
+   `(markdown-header-face-5 ((t (:foreground ,ip-red-mid))))
+   `(markdown-header-face-6 ((t (:foreground ,ip-red-mid))))
+   `(markdown-header-rule-face ((t (:foreground ,ip-red-mid))))
 
    ;; Colors for popular plugins.
 
