@@ -3,6 +3,9 @@
 Change Log
 ##########
 
+- 2022-04-12
+  - Add ``inkpot-theme-use-box`` boolean to disable the box outline for the mode-line and header.
+
 - 2022-04-11
   - Set heading colors for ``markdown-mode``.
 

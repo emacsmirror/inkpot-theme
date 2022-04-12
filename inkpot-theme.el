@@ -15,6 +15,10 @@
 
 (deftheme inkpot "Dark color scheme with bright easily identifiable colors.")
 
+(defcustom inkpot-theme-use-box t
+  "Show outline around mode-line and header."
+  :type 'boolean)
+
 ;; Colors from original Vim theme (for reference)
 ;; as of https://github.com/ciaranm/inkpot (Feb 11, 2013)
 
@@ -93,9 +97,14 @@
 
       (ip-black                 "#000000") ;; bg:Normal
       (ip-white                 "#ffffff") ;; fg:ErrorMsg fg:WarningMsg
-
       ;; End palette colors.
-      )
+
+      (box-outline
+       (cond
+        (inkpot-theme-use-box
+         (list :box (list :line-width -1 :color "#7070a0")))
+        (t
+         nil))))
 
   (custom-theme-set-faces
    'inkpot
@@ -144,18 +153,24 @@
 
    ;; Mode line.
    ;; Follow GVIM, inactive mode-line isn't bold.
-   `(header-line ((t (:foreground ,ip-grey+73 :background ,ip-slate-dark+15.7
-                                  :bold t
-                                  :box (:line-width -1 :color ,ip-slate-light)))))
-   `(header-line-inactive ((t (:foreground ,ip-grey+73 :background ,ip-slate-dark+15.7
-                                           :box (:line-width -1 :color ,ip-slate-light)))))
-   `(mode-line ((t (:foreground ,ip-grey+73 :background ,ip-slate-dark+15.7
-                                :box (:line-width -1 :color ,ip-slate-light)))))
-   `(mode-line-active ((t (:foreground ,ip-grey+73 :background ,ip-slate-dark+15.7
-                                       :box (:line-width -1 :color ,ip-slate-light) :bold t))))
-   `(mode-line-inactive ((t (:foreground ,ip-grey+73 :background ,ip-slate-dark+15.7
-                                         :box (:line-width -1 :color ,ip-slate-light)))))
-   `(mode-line-buffer-id ((t (:foreground ,ip-grey+73 :bold nil))))
+   `(header-line
+     ((t (:foreground ,ip-grey+73 :background ,ip-slate-dark+15.7
+                      :bold t ,@box-outline))))
+   `(header-line-inactive
+     ((t (:foreground ,ip-grey+73 :background ,ip-slate-dark+15.7
+                      ,@box-outline))))
+   `(mode-line
+     ((t (:foreground ,ip-grey+73 :background ,ip-slate-dark+15.7
+                      ,@box-outline))))
+   `(mode-line-active
+     ((t (:foreground ,ip-grey+73 :background ,ip-slate-dark+15.7
+                      :bold t ,@box-outline))))
+   `(mode-line-inactive
+     ((t (:foreground ,ip-grey+73 :background ,ip-slate-dark+15.7
+                      ,@box-outline))))
+   `(mode-line-buffer-id
+     ((t (:foreground ,ip-grey+73
+                      :bold nil ,@box-outline))))
 
 
    `(hl-line ((t (:background ,ip-slate-dark+7.6))))
@@ -187,7 +202,7 @@
 
    ;; tab-bar-mode.
    `(tab-bar ((t (:foreground ,ip-grey+73 :background ,ip-slate-dark+7.6 :bold t))))
-   `(tab-bar-tab ((t (:foreground ,ip-grey+73 :background ,ip-slate-dark+15.7 :box (:line-width -1 :color ,ip-slate-light)))))
+   `(tab-bar-tab ((t (:foreground ,ip-grey+73 :background ,ip-slate-dark+15.7 ,@box-outline))))
    `(tab-bar-tab-inactive ((t (:foreground ,ip-grey+73 :background ,ip-slate-dark+15.7 :bold nil :italic t))))
 
    ;; which-func (shows in the mode-line).

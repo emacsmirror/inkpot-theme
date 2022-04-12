@@ -22,6 +22,13 @@ This theme is quite close to
    Screenshot of Emacs-Lisp code.
 
 
+Customization
+=============
+
+``inkpot-theme-use-box`` (``t``)
+   When nil, don't use box outlines for the mode-line and header.
+
+
 Notes
 =====
 
