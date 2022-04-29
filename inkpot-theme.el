@@ -451,7 +451,11 @@
 
    ;; visual-indentation-mode (stand alone package).
    `(visual-indentation-light-face ((t (:background ,ip-slate-dark+15.7))))
-   `(visual-indentation-dark-face ((t (:background ,ip-slate-dark+7.9))))))
+   `(visual-indentation-dark-face ((t (:background ,ip-slate-dark+7.9))))
+
+   ;; swiper (melpa).
+   ;; NOTE: This color is needed as a more subtle tone that doesn't make comments unreadable.
+   `(swiper-line-face ((t (:background ,ip-grey+18 :extend t))))))
 
 ;;;###autoload
 (when load-file-name

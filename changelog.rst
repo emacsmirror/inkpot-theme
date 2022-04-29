@@ -3,6 +3,9 @@
 Change Log
 ##########
 
+- 2022-04-29
+   - Define a color for ``swiper-line-face`` which caused comments to be unreadable.
+
 - 2022-04-12
   - Add ``inkpot-theme-use-box`` boolean to disable the box outline for the mode-line and header.
 
