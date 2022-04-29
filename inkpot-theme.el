@@ -139,7 +139,7 @@
     `(font-lock-comment-face ((t (:foreground ,ip-orange-bright))))
     `(font-lock-comment-delimiter-face ((t (:inherit font-lock-comment-face))))
     `(font-lock-doc-face ((t (:foreground ,ip-blue-bright)))) ;; Alternate comment face.
-    `(font-lock-doc-markup-face ((t (:foreground ,ip-orange-dark))))
+    `(font-lock-doc-markup-face ((t (:foreground ,ip-cyan-mid))))
     `(font-lock-constant-face ((t (:foreground ,ip-cyan-mid))))
     `(font-lock-function-name-face ((t (:foreground ,ip-pink-dark))))
     `(font-lock-keyword-face ((t (:foreground ,ip-blue-bright))))
