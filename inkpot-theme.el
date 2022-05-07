@@ -3,7 +3,7 @@
 ;; SPDX-License-Identifier: GPL-2.0-or-later
 ;; Author: Sarah Iovan <sarah@hwaetageek.com>
 ;;         Campbell Barton <ideasman42@gmail.com>
-;; URL: https://gitlab.com/ideasman42/emacs-inkpot-theme
+;; URL: https://codeberg.com/ideasman42/emacs-inkpot-theme
 ;; Version: 0.1
 ;; Package-Requires: ((emacs "24.1"))
 
