@@ -15,6 +15,8 @@
 
 (deftheme inkpot "Dark color scheme with bright easily identifiable colors.")
 
+(defgroup inkpot nil "InkPot theme and it's settings." :group 'inkpot)
+
 (defcustom inkpot-theme-use-box t "Show outline around mode-line and header." :type 'boolean)
 
 ;; Colors from original Vim theme (for reference)
