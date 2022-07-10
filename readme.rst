@@ -9,13 +9,15 @@ Available via `melpa <https://melpa.org/#/inkpot-theme>`__.
 This theme is quite close to
 `Vim's wonderful InkPot theme <http://www.vim.org/scripts/script.php?script_id=1143>`__.
 
-.. figure:: https://gitlab.com/ideasman42/emacs-inkpot-theme/uploads/f3ef46ea09be13cd15ae2758063242c4/inkpot_c.png
+.. Images are PNG.
+
+.. figure:: https://codeberg.org/attachments/e3df8223-4292-4474-be1b-64335fd2e197
    :scale: 50 %
    :align: center
 
    Screenshot of C code.
 
-.. figure:: https://gitlab.com/ideasman42/emacs-inkpot-theme/uploads/fd19e132621116a87ffc02ac7545b8b2/inkpot_elisp.png
+.. figure:: https://codeberg.org/attachments/855d5dc4-98b6-43ae-8dd7-e912f10c1600
    :scale: 50 %
    :align: center
 
