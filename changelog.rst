@@ -3,6 +3,9 @@
 Change Log
 ##########
 
+- 2022-07-31
+   - Add ``hl-indent-scope`` colors.
+
 - 2022-04-29
    - Define a color for ``swiper-line-face`` which caused comments to be unreadable.
 

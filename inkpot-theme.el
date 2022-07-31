@@ -451,6 +451,10 @@
     `(highlight-indent-guides-odd-face ((t (:background ,ip-slate-dark+15.7))))
     `(highlight-indent-guides-even-face ((t (:background ,ip-slate-dark+7.9))))
 
+    ;; hl-indent-scope (melpa).
+    `(hl-indent-scope-odd-face ((t (:background ,ip-slate-dark+15.7))))
+    `(hl-indent-scope-even-face ((t (:background ,ip-slate-dark+7.9))))
+
     ;; highlight-operators (melpa).
     `(highlight-operators-face ((t (:foreground ,ip-blue-bright))))
 
