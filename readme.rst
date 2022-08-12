@@ -71,6 +71,7 @@ Bundled Packages:
    - ``xref``
 
 Other Packages:
+   - ``anzu``
    - ``idle-highlight-mode``
    - ``auto-complete``.
    - ``diff-hl``
