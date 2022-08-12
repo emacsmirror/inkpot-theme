@@ -98,8 +98,8 @@
     ;;                        bg:cFormat
     (ip-grey+73 "#b9b9b9") ;; fg:StatusLine fg:StatusLineNC fg:VertSplit
     ;; (ip-grey+81 "#cfcfcd") ;; fg:MBEVisibleNormal
-    ;; (ip-grey+93 "#eeeeee") ;; fg:WildMenu fg:MBEChanged fg:MBEVisibleChanged fg:Visual
-    ;;                           fg:Pmenu fg:PmenuSel fg:PmenuSbar fg:PmenuThumb
+    (ip-grey+93 "#eeeeee") ;; fg:WildMenu fg:MBEChanged fg:MBEVisibleChanged fg:Visual
+    ;;                        fg:Pmenu fg:PmenuSel fg:PmenuSbar fg:PmenuThumb
 
     (ip-black "#000000") ;; bg:Normal
     (ip-white "#ffffff") ;; fg:ErrorMsg fg:WarningMsg
@@ -383,6 +383,9 @@
     `(markdown-header-rule-face ((t (:foreground ,ip-red-mid))))
 
     ;; Colors for popular plugins.
+
+    ;; anzu (melpa)
+    `(anzu-mode-line ((t (:foreground ,ip-grey+93))))
 
     ;; highlight-numbers (melpa).
     `(highlight-numbers-number ((t (:foreground ,ip-brown-bright))))

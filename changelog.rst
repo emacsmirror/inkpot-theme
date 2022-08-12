@@ -3,6 +3,9 @@
 Change Log
 ##########
 
+- 2022-08-12
+   - Add ``anzu-mode-line`` color.
+
 - 2022-07-31
    - Add ``hl-indent-scope`` colors.
 
