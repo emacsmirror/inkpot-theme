@@ -410,6 +410,9 @@
     `(lsp-face-semhl-constant ((t (:foreground ,ip-cream-light))))
     `(lsp-face-semhl-function ((t (:foreground ,ip-pink-dark))))
 
+    ;; `dap-mode' (melpa).
+    `(dap-ui-marker-face ((t (:background ,ip-slate-dark+7.6))))
+
     ;; magit-commit-mark (melpa).
     `(magit-commit-mark-read-face ((t (:foreground ,ip-slate-light))))
     `(magit-commit-mark-unread-face ((t (:foreground ,ip-green-bright))))

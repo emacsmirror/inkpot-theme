@@ -74,6 +74,7 @@ Other Packages:
    - ``anzu``
    - ``idle-highlight-mode``
    - ``auto-complete``.
+   - ``dap-mode``.
    - ``diff-hl``
    - ``display-line-numbers``.
    - ``fancy-dabbrev``.
