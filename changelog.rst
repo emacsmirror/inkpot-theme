@@ -3,6 +3,9 @@
 Change Log
 ##########
 
+- 2022-08-19
+   - Add ``dap-ui-marker-face`` color.
+
 - 2022-08-12
    - Add ``anzu-mode-line`` color.
 
