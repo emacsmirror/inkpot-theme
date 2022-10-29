@@ -196,9 +196,9 @@
       ((t (:foreground ,ip-yellow-bright :background ,ip-slate-dark :bold t))))
 
     ;; white-space.
-    '(whitespace-trailing ((nil (:foreground nil :background "#343443"))))
-    '(whitespace-space ((nil (:foreground "#434357" :background nil))))
-    '(whitespace-tab ((nil (:foreground "#434357" :background nil))))
+    '(whitespace-trailing ((nil (:background "#343443"))))
+    '(whitespace-space ((nil (:foreground "#434357"))))
+    '(whitespace-tab ((nil (:foreground "#434357"))))
 
     ;; xref mode.
     `(xref-line-number ((t (:foreground ,ip-slate-lite+17.7 :background ,ip-grey+18))))
