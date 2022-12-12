@@ -14,11 +14,16 @@
 
 ;;; Code:
 
-(deftheme inkpot "Dark color scheme with bright easily identifiable colors.")
+(deftheme inkpot
+  "Dark color scheme with bright easily identifiable colors.")
 
-(defgroup inkpot nil "InkPot theme and it's settings." :group 'inkpot)
+(defgroup inkpot nil
+  "InkPot theme and it's settings."
+  :group 'inkpot)
 
-(defcustom inkpot-theme-use-box t "Show outline around mode-line and header." :type 'boolean)
+(defcustom inkpot-theme-use-box t
+  "Show outline around mode-line and header."
+  :type 'boolean)
 
 ;; Colors from original Vim theme (for reference)
 ;; as of https://github.com/ciaranm/inkpot (Feb 11, 2013)
@@ -480,7 +485,8 @@
 
 ;;;###autoload
 (when load-file-name
-  (add-to-list 'custom-theme-load-path
+  (add-to-list
+    'custom-theme-load-path
     (file-name-as-directory (file-name-directory load-file-name))))
 
 (provide-theme 'inkpot)
