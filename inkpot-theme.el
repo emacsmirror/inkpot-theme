@@ -31,82 +31,82 @@
 ;; Ordered around the color wheel, starting at red.
 ;; Include VIM usage in comments.
 
-(let ((ip-red-dark "#6e2e2e") ;; bg:Error
-      (ip-red-dark+0.2 "#6d3030") ;; bg:DiffDelete
-      (ip-red-mid "#af4f4b") ;; fg:Title
-      (ip-red-light "#ce4e4e") ;; bg:ErrorMsg
-      ;; (ip-red-light+4.5 "#cc6666") ;; sp:SpellBad
+(let ((ip-red-dark "#6e2e2e") ; bg:Error
+      (ip-red-dark+0.2 "#6d3030") ; bg:DiffDelete
+      (ip-red-mid "#af4f4b") ; fg:Title
+      (ip-red-light "#ce4e4e") ; bg:ErrorMsg
+      ;; (ip-red-light+4.5 "#cc6666") ; sp:SpellBad
 
-      (ip-orange-dark "#ad600b") ;; fg:doxygenSpecialMultilineDesc fg:doxygenSpecialOnelineDesc
-      ;; (ip-orange-dark+12.3 "#ad7b20") ;; bg:doxygenComment
-      (ip-orange-bright "#cd8b00") ;; fg:Comment
-      (ip-orange-light "#df9f2d") ;; fg:Underlined
-      ;; (ip-orange-light+11.7 "#fdd090") ;; fg:doxygenParam fg:doxygenPrev fg:doxygenSmallSpecial
+      (ip-orange-dark "#ad600b") ; fg:doxygenSpecialMultilineDesc fg:doxygenSpecialOnelineDesc
+      ;; (ip-orange-dark+12.3 "#ad7b20") ; bg:doxygenComment
+      (ip-orange-bright "#cd8b00") ; fg:Comment
+      (ip-orange-light "#df9f2d") ; fg:Underlined
+      ;; (ip-orange-light+11.7 "#fdd090") ; fg:doxygenParam fg:doxygenPrev fg:doxygenSmallSpecial
       ;;                                     fg:doxygenSpecial
 
-      (ip-brown-mid "#ad7b57") ;; bg:Search
-      ;; (ip-brown-mid+12.6 "#cd8b60") ;; bg:IncSearch
-      (ip-brown-mid+13 "#ce8e4e") ;; bg:WarningMsg
-      ;; (ip-brown-mid+13.8 "#d0a060") ;; fg:Folded
-      ;; (ip-brown-mid+31.4 "#fdab60") ;; fg:doxygenBrief fg:doxygenSpecial
+      (ip-brown-mid "#ad7b57") ; bg:Search
+      ;; (ip-brown-mid+12.6 "#cd8b60") ; bg:IncSearch
+      (ip-brown-mid+13 "#ce8e4e") ; bg:WarningMsg
+      ;; (ip-brown-mid+13.8 "#d0a060") ; fg:Folded
+      ;; (ip-brown-mid+31.4 "#fdab60") ; fg:doxygenBrief fg:doxygenSpecial
 
-      (ip-brown-bright "#f0ad6d") ;; fg:Number
-      (ip-brown-light "#ffcd8b") ;; fg:Constant fg:String
-      (ip-brown-light+30.9 "#ffffcd") ;; fg:DiffText fg:DiffChange fg:DiffDelete fg:DiffAdd
+      (ip-brown-bright "#f0ad6d") ; fg:Number
+      (ip-brown-light "#ffcd8b") ; fg:Constant fg:String
+      (ip-brown-light+30.9 "#ffffcd") ; fg:DiffText fg:DiffChange fg:DiffDelete fg:DiffAdd
 
-      (ip-cream-light "#cfbfad") ;; fg:Normal fg:MBENormal fg:MatchParen
+      (ip-cream-light "#cfbfad") ; fg:Normal fg:MBENormal fg:MatchParen
 
-      ;; (ip-yellow-mid "#cccc66") ;; sp:SpellLocal
-      (ip-yellow-bright "#ffcd00") ;; fg:Question
+      ;; (ip-yellow-mid "#cccc66") ; sp:SpellLocal
+      (ip-yellow-bright "#ffcd00") ; fg:Question
 
-      (ip-green-mid "#306d30") ;; bg:DiffAdd
-      (ip-green-bright "#00ff8b") ;; fg:User1 fg:Directory
-      ;; (ip-green-light "#8fff8b") ;; bg:lCursor
+      (ip-green-mid "#306d30") ; bg:DiffAdd
+      (ip-green-bright "#00ff8b") ; fg:User1 fg:Directory
+      ;; (ip-green-light "#8fff8b") ; bg:lCursor
 
-      (ip-cyan-dark "#306b8f") ;; bg:DiffChange
-      (ip-cyan-mid "#409090") ;; fg:PreProc
-      ;; (ip-cyan-bright "#66cccc") ;; sp:SpellCap
+      (ip-cyan-dark "#306b8f") ; bg:DiffChange
+      (ip-cyan-mid "#409090") ; fg:PreProc
+      ;; (ip-cyan-bright "#66cccc") ; sp:SpellCap
 
       ;; Use name 'slate' as the palette has many de-saturated blues.
       (ip-slate-dark-inverted "#b38363")
-      (ip-slate-dark "#1e1e27") ;; bg:Normal
-      (ip-slate-dark+7.6 "#2e2e37") ;; bg:CursorLine
-      (ip-slate-dark+7.9 "#2e2e3f") ;; bg:MBENormal bg:MBEChanged bg:PmenuSel
-      (ip-slate-dark+15.7 "#3e3e5e") ;; bg:StatusLine bg:User1 bg:User2
+      (ip-slate-dark "#1e1e27") ; bg:Normal
+      (ip-slate-dark+7.6 "#2e2e37") ; bg:CursorLine
+      (ip-slate-dark+7.9 "#2e2e3f") ; bg:MBENormal bg:MBEChanged bg:PmenuSel
+      (ip-slate-dark+15.7 "#3e3e5e") ; bg:StatusLine bg:User1 bg:User2
       ;;                                bg:StatusLineNC bg:VertSplit
 
-      (ip-slate-mid "#4e4e8f") ;; bg:MBEVisibleNormal bg:MBEVisibleChanged bg:Visual bg:Pmenu
+      (ip-slate-mid "#4e4e8f") ; bg:MBEVisibleNormal bg:MBEVisibleChanged bg:Visual bg:Pmenu
       ;;                          bg:MatchParen
-      (ip-slate-light "#7070a0") ;; fg:User2
-      (ip-slate-light+5.5 "#7e7eae") ;; fg:ModeMsg fg:MoreMsg
-      (ip-slate-light+5.9 "#6e6eaf") ;; bg:WildMenu bg:PmenuSbar bg:PmenuThumb
-      (ip-slate-lite+17.7 "#8b8bcd") ;; fg:FoldColumn fg:LineNr fg:NonText
+      (ip-slate-light "#7070a0") ; fg:User2
+      (ip-slate-light+5.5 "#7e7eae") ; fg:ModeMsg fg:MoreMsg
+      (ip-slate-light+5.9 "#6e6eaf") ; bg:WildMenu bg:PmenuSbar bg:PmenuThumb
+      (ip-slate-lite+17.7 "#8b8bcd") ; fg:FoldColumn fg:LineNr fg:NonText
 
-      (ip-blue-bright "#808bed") ;; fg:Statement fg:TaglistTagName
-      (ip-blue-bright+1.6 "#8b8bff") ;; bg:Cursor bg:CursorIM
+      (ip-blue-bright "#808bed") ; fg:Statement fg:TaglistTagName
+      (ip-blue-bright+1.6 "#8b8bff") ; bg:Cursor bg:CursorIM
 
-      ;; (ip-purple-dark "#3b205d") ;; fg:SpecialKey
-      ;; (ip-purple-dark+10.4 "#4b208f") ;; bg:Folded
-      ;; (ip-purple-mid "#4a2a4a") ;; bg:DiffText
+      ;; (ip-purple-dark "#3b205d") ; fg:SpecialKey
+      ;; (ip-purple-dark+10.4 "#4b208f") ; bg:Folded
+      ;; (ip-purple-mid "#4a2a4a") ; bg:DiffText
 
-      ;; (ip-pink-dark-3.9 "#cc66cc") ;; sp:SpellRare
-      (ip-pink-dark "#c080d0") ;; fg:Special fg:SpecialChar fg:perlSpecialMatch
+      ;; (ip-pink-dark-3.9 "#cc66cc") ; sp:SpellRare
+      (ip-pink-dark "#c080d0") ; fg:Special fg:SpecialChar fg:perlSpecialMatch
       ;;                          fg:perlSpecialString fg:cSpecialCharacter fg:cFormat fg:Conceal
-      (ip-pink-light "#ff8bff") ;; fg:Identifier fg:Type
+      (ip-pink-light "#ff8bff") ; fg:Identifier fg:Type
 
       ;; Tones.
-      (ip-grey+18 "#2e2e2e") ;; bg:FoldColumn bg:LineNr bg:ColorColumn
-      (ip-grey+19 "#303030") ;; fg:IncSearch fg:Search fg:Todo
-      (ip-grey+25 "#404040") ;; fg:Cursor fg:lCursor fg:CursorIM bg:String bg:SpecialChar
+      (ip-grey+18 "#2e2e2e") ; bg:FoldColumn bg:LineNr bg:ColorColumn
+      (ip-grey+19 "#303030") ; fg:IncSearch fg:Search fg:Todo
+      (ip-grey+25 "#404040") ; fg:Cursor fg:lCursor fg:CursorIM bg:String bg:SpecialChar
       ;;                        bg:perlSpecialMatch bg:perlSpecialString bg:cSpecialCharacter
       ;;                        bg:cFormat
-      (ip-grey+73 "#b9b9b9") ;; fg:StatusLine fg:StatusLineNC fg:VertSplit
-      ;; (ip-grey+81 "#cfcfcd") ;; fg:MBEVisibleNormal
-      (ip-grey+93 "#eeeeee") ;; fg:WildMenu fg:MBEChanged fg:MBEVisibleChanged fg:Visual
+      (ip-grey+73 "#b9b9b9") ; fg:StatusLine fg:StatusLineNC fg:VertSplit
+      ;; (ip-grey+81 "#cfcfcd") ; fg:MBEVisibleNormal
+      (ip-grey+93 "#eeeeee") ; fg:WildMenu fg:MBEChanged fg:MBEVisibleChanged fg:Visual
       ;;                        fg:Pmenu fg:PmenuSel fg:PmenuSbar fg:PmenuThumb
 
-      (ip-black "#000000") ;; bg:Normal
-      (ip-white "#ffffff") ;; fg:ErrorMsg fg:WarningMsg
+      (ip-black "#000000") ; bg:Normal
+      (ip-white "#ffffff") ; fg:ErrorMsg fg:WarningMsg
       ;; End palette colors.
 
       (box-outline
@@ -123,7 +123,7 @@
    `(default ((t (:foreground ,ip-cream-light :background ,ip-slate-dark))))
    '(default-italic ((t (:italic t))))
    `(cursor ((t (:background ,ip-blue-bright+1.6))))
-   `(escape-glyph ((t (:foreground ,ip-slate-lite+17.7)))) ;; Not matching GVIM, just nice color.
+   `(escape-glyph ((t (:foreground ,ip-slate-lite+17.7)))) ; Not matching GVIM, just nice color.
    `(fringe ((t (:foreground ,ip-slate-lite+17.7 :background ,ip-grey+18))))
    `(highlight ((t (:background ,ip-grey+25))))
    `(region ((t (:foreground ,ip-white :background ,ip-slate-mid))))
@@ -139,7 +139,7 @@
    ;; UI.
    `(button ((t (:underline t :foreground ,ip-pink-light))))
    `(link ((t (:foreground ,ip-pink-light))))
-   `(link-visited ((t (:foreground ,ip-pink-dark)))) ;; Not a vim color, just a little darker.
+   `(link-visited ((t (:foreground ,ip-pink-dark)))) ; Not a vim color, just a little darker.
    ;; FIXME.
    `(widget-field
      ((t
@@ -155,7 +155,7 @@
    `(font-lock-comment-delimiter-face
      ((t
        (:inherit font-lock-comment-face))))
-   `(font-lock-doc-face ((t (:foreground ,ip-blue-bright)))) ;; Alternate comment face.
+   `(font-lock-doc-face ((t (:foreground ,ip-blue-bright)))) ; Alternate comment face.
    `(font-lock-doc-markup-face ((t (:foreground ,ip-cyan-mid))))
    `(font-lock-constant-face ((t (:foreground ,ip-cyan-mid))))
    `(font-lock-function-name-face ((t (:foreground ,ip-pink-dark))))
@@ -170,7 +170,7 @@
      ((t
        (:foreground ,ip-white :background ,ip-red-dark))))
 
-   `(font-lock-negation-char-face ((t (:foreground ,ip-cream-light)))) ;; currently no change.
+   `(font-lock-negation-char-face ((t (:foreground ,ip-cream-light)))) ; currently no change.
    `(font-lock-regexp-grouping-construct
      ((t
        (:foreground ,ip-blue-bright :weight bold))))
