@@ -3,6 +3,9 @@
 Change Log
 ##########
 
+- 2023-03-06
+   - Define a color for ``mono-complete-preview-face``.
+
 - 2022-08-19
    - Add ``dap-ui-marker-face`` color.
 
