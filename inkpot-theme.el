@@ -429,6 +429,8 @@
    ;; fancy-dabbrev (melpa).
    ;; Colors selected from the palette to be a balance: not too intrusive, not too faded.
    `(fancy-dabbrev-preview-face ((t (:foreground ,ip-slate-light+5.5 :background ,ip-slate-dark+7.6))))
+   ;; mono-complete (melpa)
+   `(mono-complete-preview-face ((t (:foreground ,ip-slate-light+5.5 :background ,ip-slate-dark+7.6))))
 
    ;; neotree (melpa).
    `(neo-banner-face ((t (:foreground ,ip-orange-bright))))
