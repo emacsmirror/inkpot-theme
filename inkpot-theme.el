@@ -371,6 +371,12 @@
 
    ;; Colors for popular plugins.
 
+   ;; vundo (elpa).
+   `(vundo-node ((t (:foreground ,ip-slate-dark+15.7))))
+   `(vundo-stem ((t (:foreground ,ip-slate-dark+15.7))))
+   `(vundo-saved ((t (:foreground ,ip-cream-light))))
+   `(vundo-highlight ((t (:foreground ,ip-yellow-bright))))
+
    ;; anzu (melpa)
    `(anzu-mode-line ((t (:foreground ,ip-grey+93))))
 

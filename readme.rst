@@ -91,6 +91,7 @@ Other Packages:
    - ``neotree``.
    - ``treemacs``.
    - ``visual-indentation-mode``.
+   - ``vundo``.
 
 
 Additions, corrections, and improvements are most welcome.
