@@ -3,6 +3,9 @@
 Change Log
 ##########
 
+- 2023-04-04
+   - Define colors for ``vundo``.
+
 - 2023-03-06
    - Define a color for ``mono-complete-preview-face``.
 
