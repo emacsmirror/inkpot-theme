@@ -193,6 +193,11 @@
    '(whitespace-space ((nil (:foreground "#434357"))))
    '(whitespace-tab ((nil (:foreground "#434357"))))
 
+   ;; `eglot`.
+   `(eglot-inlay-hint-face ((t (:foreground ,ip-slate-light+5.9 :background ,ip-slate-dark+7.6))))
+   `(eglot-type-hint-face ((t (:foreground ,ip-slate-light+5.9 :background ,ip-slate-dark+7.6))))
+   `(eglot-parameter-hint-face ((t (:foreground ,ip-slate-light+5.9 :background ,ip-slate-dark+7.6))))
+
    ;; xref mode.
    `(xref-line-number ((t (:foreground ,ip-slate-lite+17.7 :background ,ip-grey+18))))
 

@@ -3,6 +3,10 @@
 Change Log
 ##########
 
+
+- 2023-04-18
+   - Define colors for ``eglot`` inlay hints.
+
 - 2023-04-04
    - Define colors for ``vundo``.
 

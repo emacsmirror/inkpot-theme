@@ -65,6 +65,7 @@ Other:
    - ``ediff-mode``
 
 Bundled Packages:
+   - ``eglot``
    - ``tab-bar-mode``
    - ``which-func``
    - ``white-space``
