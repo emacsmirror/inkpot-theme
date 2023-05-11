@@ -379,7 +379,9 @@
    ;; vundo (elpa).
    `(vundo-node ((t (:foreground ,ip-slate-dark+15.7))))
    `(vundo-stem ((t (:foreground ,ip-slate-dark+15.7))))
-   `(vundo-saved ((t (:foreground ,ip-cream-light))))
+   `(vundo-branch-stem ((t (:foreground ,ip-slate-light))))
+   `(vundo-saved ((t (:foreground ,ip-slate-light))))
+   `(vundo-last-saved ((t (:foreground ,ip-cream-light))))
    `(vundo-highlight ((t (:foreground ,ip-yellow-bright))))
 
    ;; anzu (melpa)
