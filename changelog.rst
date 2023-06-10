@@ -3,6 +3,8 @@
 Change Log
 ##########
 
+- 2023-06-10
+   - Add ``inkpot-theme-use-black-background`` to use a black background.
 
 - 2023-04-18
    - Define colors for ``eglot`` inlay hints.

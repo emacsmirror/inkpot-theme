@@ -25,6 +25,10 @@
   "Show outline around mode-line and header."
   :type 'boolean)
 
+(defcustom inkpot-theme-use-black-background nil
+  "Use a black background."
+  :type 'boolean)
+
 ;; Colors from original Vim theme (for reference)
 ;; as of https://github.com/ciaranm/inkpot (Feb 11, 2013)
 
@@ -111,6 +115,14 @@
          (list :box (list :line-width -1 :color "#7070a0")))
         (t
          nil))))
+
+  (when inkpot-theme-use-black-background
+    (setq ip-black "#0E0E0E")
+    (setq ip-slate-dark "#000000")
+    (setq ip-slate-dark+15.7 "#181818")
+    (setq ip-slate-dark+7.9 "#141414")
+    (setq ip-slate-dark+7.6 "#101010")
+    (setq ip-grey+25 "#1E1E1E"))
 
   (custom-theme-set-faces
    ;; Theme name.

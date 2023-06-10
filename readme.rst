@@ -27,8 +27,10 @@ This theme is quite close to
 Customization
 =============
 
-``inkpot-theme-use-box`` (``t``)
+``inkpot-theme-use-box``: ``t``
    When nil, don't use box outlines for the mode-line and header.
+``inkpot-theme-use-black-background``: ``nil``
+   When t, use a black background.
 
 
 Notes
