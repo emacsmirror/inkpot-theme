@@ -3,6 +3,10 @@
 Change Log
 ##########
 
+
+- 2023-06-11
+   - Add ``anzu-mode-line-no-match`` color.
+
 - 2023-06-10
    - Add ``inkpot-theme-use-black-background`` to use a black background.
 
