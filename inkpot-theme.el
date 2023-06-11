@@ -77,6 +77,10 @@
       (ip-slate-dark+7.9 "#2e2e3f") ; bg:MBENormal bg:MBEChanged bg:PmenuSel
       (ip-slate-dark+15.7 "#3e3e5e") ; bg:StatusLine bg:User1 bg:User2 bg:StatusLineNC bg:VertSplit
 
+      (ip-slate-dark+7.6-bg "#2e2e37") ; ip-slate-dark+7.6, background adjusted.
+      (ip-slate-dark+7.9-bg "#2e2e3f") ; ip-slate-dark+7.9, background adjusted.
+      (ip-slate-dark+15.7-bg "#3e3e5e") ; ip-slate-dark+15.7, background adjusted.
+
       (ip-slate-mid "#4e4e8f") ; bg:MBEVisibleNormal bg:MBEVisibleChanged bg:Visual bg:Pmenu bg:MatchParen
       (ip-slate-light "#7070a0") ; fg:User2
       (ip-slate-light+5.5 "#7e7eae") ; fg:ModeMsg fg:MoreMsg
@@ -118,9 +122,9 @@
 
   (when inkpot-theme-use-black-background
     (setq ip-slate-dark "#000000")
-    (setq ip-slate-dark+15.7 "#181818")
-    (setq ip-slate-dark+7.9 "#141414")
-    (setq ip-slate-dark+7.6 "#101010")
+    (setq ip-slate-dark+7.6-bg "#181818")
+    (setq ip-slate-dark+7.9-bg "#141414")
+    (setq ip-slate-dark+15.7-bg "#101010")
     (setq ip-grey+25 "#1E1E1E"))
 
   (custom-theme-set-faces
@@ -180,7 +184,7 @@
    `(mode-line-buffer-id ((t (:foreground ,ip-grey+73 :bold nil ,@box-outline))))
 
 
-   `(hl-line ((t (:background ,ip-slate-dark+7.6))))
+   `(hl-line ((t (:background ,ip-slate-dark+7.6-bg))))
 
    `(show-paren-match-face ((t (:background ,ip-slate-mid))))
    `(show-paren-match ((t (:background ,ip-slate-mid))))
@@ -205,15 +209,15 @@
    '(whitespace-tab ((nil (:foreground "#434357"))))
 
    ;; `eglot`.
-   `(eglot-inlay-hint-face ((t (:foreground ,ip-slate-light+5.9 :background ,ip-slate-dark+7.6))))
-   `(eglot-type-hint-face ((t (:foreground ,ip-slate-light+5.9 :background ,ip-slate-dark+7.6))))
-   `(eglot-parameter-hint-face ((t (:foreground ,ip-slate-light+5.9 :background ,ip-slate-dark+7.6))))
+   `(eglot-inlay-hint-face ((t (:foreground ,ip-slate-light+5.9 :background ,ip-slate-dark+7.6-bg))))
+   `(eglot-type-hint-face ((t (:foreground ,ip-slate-light+5.9 :background ,ip-slate-dark+7.6-bg))))
+   `(eglot-parameter-hint-face ((t (:foreground ,ip-slate-light+5.9 :background ,ip-slate-dark+7.6-bg))))
 
    ;; xref mode.
    `(xref-line-number ((t (:foreground ,ip-slate-lite+17.7 :background ,ip-grey+18))))
 
    ;; tab-bar-mode.
-   `(tab-bar ((t (:foreground ,ip-grey+73 :background ,ip-slate-dark+7.6 :bold t))))
+   `(tab-bar ((t (:foreground ,ip-grey+73 :background ,ip-slate-dark+7.6-bg :bold t))))
    `(tab-bar-tab ((t (:foreground ,ip-grey+73 :background ,ip-slate-dark+15.7 ,@box-outline))))
    `(tab-bar-tab-inactive ((t (:foreground ,ip-grey+73 :background ,ip-slate-dark+15.7 :bold nil :italic t))))
 
@@ -452,9 +456,9 @@
 
    ;; fancy-dabbrev (melpa).
    ;; Colors selected from the palette to be a balance: not too intrusive, not too faded.
-   `(fancy-dabbrev-preview-face ((t (:foreground ,ip-slate-light+5.5 :background ,ip-slate-dark+7.6))))
+   `(fancy-dabbrev-preview-face ((t (:foreground ,ip-slate-light+5.5 :background ,ip-slate-dark+7.6-bg))))
    ;; mono-complete (melpa)
-   `(mono-complete-preview-face ((t (:foreground ,ip-slate-light+5.5 :background ,ip-slate-dark+7.6))))
+   `(mono-complete-preview-face ((t (:foreground ,ip-slate-light+5.5 :background ,ip-slate-dark+7.6-bg))))
 
    ;; neotree (melpa).
    `(neo-banner-face ((t (:foreground ,ip-orange-bright))))
@@ -465,12 +469,16 @@
    `(neo-file-link-face ((t (:foreground ,ip-cream-light))))
 
    ;; highlight-indent-guides (melpa).
-   `(highlight-indent-guides-odd-face ((t (:background ,ip-slate-dark+15.7))))
-   `(highlight-indent-guides-even-face ((t (:background ,ip-slate-dark+7.9))))
+   `(highlight-indent-guides-odd-face ((t (:background ,ip-slate-dark+15.7-bg))))
+   `(highlight-indent-guides-even-face ((t (:background ,ip-slate-dark+7.9-bg))))
 
    ;; hl-indent-scope (melpa).
-   `(hl-indent-scope-odd-face ((t (:background ,ip-slate-dark+15.7))))
-   `(hl-indent-scope-even-face ((t (:background ,ip-slate-dark+7.9))))
+   `(hl-indent-scope-odd-face ((t (:background ,ip-slate-dark+15.7-bg))))
+   `(hl-indent-scope-even-face ((t (:background ,ip-slate-dark+7.9-bg))))
+
+   ;; visual-indentation-mode (stand alone package).
+   `(visual-indentation-light-face ((t (:background ,ip-slate-dark+15.7-bg))))
+   `(visual-indentation-dark-face ((t (:background ,ip-slate-dark+7.9-bg))))
 
    ;; highlight-operators (melpa).
    `(highlight-operators-face ((t (:foreground ,ip-blue-bright))))
@@ -480,10 +488,6 @@
    `(highlight-symbol-face ((t (:background ,ip-slate-dark+15.7))))
    ;; idle-highlight-mode (melpa).
    `(idle-highlight ((t (:background ,ip-slate-dark+15.7))))
-
-   ;; visual-indentation-mode (stand alone package).
-   `(visual-indentation-light-face ((t (:background ,ip-slate-dark+15.7))))
-   `(visual-indentation-dark-face ((t (:background ,ip-slate-dark+7.9))))
 
    ;; swiper (melpa).
    ;; NOTE: This color is needed as a more subtle tone that doesn't make comments unreadable.
