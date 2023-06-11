@@ -117,7 +117,6 @@
          nil))))
 
   (when inkpot-theme-use-black-background
-    (setq ip-black "#0E0E0E")
     (setq ip-slate-dark "#000000")
     (setq ip-slate-dark+15.7 "#181818")
     (setq ip-slate-dark+7.9 "#141414")
@@ -244,8 +243,8 @@
    `(diff-file-header ((t (:foreground ,ip-brown-light+30.9 :background ,ip-grey+25))))
    ;; These are displayed side-by-side, a rare exception where a black
    ;; background is useful to visually separate content.
-   `(diff-hunk-header ((t (:foreground ,ip-cyan-mid :background ,ip-black))))
-   `(diff-function ((t (:foreground ,ip-yellow-bright :background ,ip-black))))
+   `(diff-hunk-header ((t (:foreground ,ip-cream-light :background ,ip-slate-dark+15.7))))
+   `(diff-function ((t (:foreground ,ip-yellow-bright :background ,ip-slate-dark+15.7))))
 
    ;; ediff-mode
    `(ediff-current-diff-A ((t (:foreground ,ip-cream-light :background ,ip-red-mid))))
