@@ -400,7 +400,8 @@
    `(vundo-highlight ((t (:foreground ,ip-yellow-bright))))
 
    ;; anzu (melpa)
-   `(anzu-mode-line ((t (:foreground ,ip-grey+93))))
+   `(anzu-mode-line ((t (:foreground ,ip-grey+93 :weight normal))))
+   `(anzu-mode-line-no-match ((t (:foreground ,ip-grey+73 :weight normal))))
 
    ;; highlight-numbers (melpa).
    `(highlight-numbers-number ((t (:foreground ,ip-brown-bright))))
