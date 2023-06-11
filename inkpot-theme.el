@@ -260,7 +260,7 @@
    `(ediff-even-diff-B ((t (:background ,ip-slate-dark+7.6))))
    `(ediff-even-diff-C ((t (:background ,ip-slate-dark+7.6))))
    `(ediff-fine-diff-A ((t (:foreground ,ip-cream-light :background ,ip-red-light :weight bold))))
-   `(ediff-fine-diff-Ancestor ((t (:foreground ,ip-cream-light :background ,ip-red-light weight bold))))
+   `(ediff-fine-diff-Ancestor ((t (:foreground ,ip-cream-light :background ,ip-red-light :weight bold))))
    `(ediff-fine-diff-B ((t (:foreground ,ip-cream-light :background ,ip-green-bright :weight bold))))
    `(ediff-fine-diff-C ((t (:foreground ,ip-cream-light :background ,ip-cyan-mid :weight bold))))
    `(ediff-odd-diff-A ((t (:background ,ip-slate-dark+15.7))))
