@@ -78,8 +78,6 @@
       (ip-slate-dark+15.7 "#3e3e5e") ; bg:StatusLine bg:User1 bg:User2 bg:StatusLineNC bg:VertSplit
 
       (ip-slate-dark+7.6-bg "#2e2e37") ; ip-slate-dark+7.6, background adjusted.
-      (ip-slate-dark+7.9-bg "#2e2e3f") ; ip-slate-dark+7.9, background adjusted.
-      (ip-slate-dark+15.7-bg "#3e3e5e") ; ip-slate-dark+15.7, background adjusted.
 
       (ip-slate-mid "#4e4e8f") ; bg:MBEVisibleNormal bg:MBEVisibleChanged bg:Visual bg:Pmenu bg:MatchParen
       (ip-slate-light "#7070a0") ; fg:User2
@@ -113,6 +111,10 @@
       (ip-white "#ffffff") ; fg:ErrorMsg fg:WarningMsg
       ;; End palette colors.
 
+      ;; Colors not from the palette.
+      (ip-slate-dark-hi-1 "#2A2A36") ; ip-slate-dark V  +6 (HSLUV)
+      (ip-slate-dark-hi-2 "#373745") ; ip-slate-dark V +12 (HSLUV)
+
       (box-outline
        (cond
         (inkpot-theme-use-box
@@ -123,8 +125,10 @@
   (when inkpot-theme-use-black-background
     (setq ip-slate-dark "#000000")
     (setq ip-slate-dark+7.6-bg "#181818")
-    (setq ip-slate-dark+7.9-bg "#141414")
-    (setq ip-slate-dark+15.7-bg "#101010")
+
+    (setq ip-slate-dark-hi-1 "#131313")
+    (setq ip-slate-dark-hi-2 "#1F1F1F")
+
     (setq ip-grey+25 "#1E1E1E"))
 
   (custom-theme-set-faces
@@ -470,16 +474,16 @@
    `(neo-file-link-face ((t (:foreground ,ip-cream-light))))
 
    ;; highlight-indent-guides (melpa).
-   `(highlight-indent-guides-odd-face ((t (:background ,ip-slate-dark+15.7-bg))))
-   `(highlight-indent-guides-even-face ((t (:background ,ip-slate-dark+7.9-bg))))
+   `(highlight-indent-guides-odd-face ((t (:background ,ip-slate-dark-hi-2))))
+   `(highlight-indent-guides-even-face ((t (:background ,ip-slate-dark-hi-1))))
 
    ;; hl-indent-scope (melpa).
-   `(hl-indent-scope-odd-face ((t (:background ,ip-slate-dark+15.7-bg))))
-   `(hl-indent-scope-even-face ((t (:background ,ip-slate-dark+7.9-bg))))
+   `(hl-indent-scope-odd-face ((t (:background ,ip-slate-dark-hi-2))))
+   `(hl-indent-scope-even-face ((t (:background ,ip-slate-dark-hi-1))))
 
    ;; visual-indentation-mode (stand alone package).
-   `(visual-indentation-light-face ((t (:background ,ip-slate-dark+15.7-bg))))
-   `(visual-indentation-dark-face ((t (:background ,ip-slate-dark+7.9-bg))))
+   `(visual-indentation-light-face ((t (:background ,ip-slate-dark-hi-2))))
+   `(visual-indentation-dark-face ((t (:background ,ip-slate-dark-hi-1))))
 
    ;; highlight-operators (melpa).
    `(highlight-operators-face ((t (:foreground ,ip-blue-bright))))
