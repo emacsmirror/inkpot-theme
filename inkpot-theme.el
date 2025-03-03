@@ -114,6 +114,7 @@
       ;; Colors not from the palette.
       (ip-slate-dark-hi-1 "#2A2A36") ; ip-slate-dark V  +6 (HSLUV)
       (ip-slate-dark-hi-2 "#373745") ; ip-slate-dark V +12 (HSLUV)
+      (ip-cream-light-18 "#9c8f81") ; ip-cream-light V -18 (HSLUV)
 
       (box-outline
        (cond
@@ -163,6 +164,7 @@
    `(font-lock-builtin-face ((t (:foreground ,ip-pink-light))))
    `(font-lock-comment-face ((t (:foreground ,ip-orange-bright))))
    `(font-lock-comment-delimiter-face ((t (:inherit font-lock-comment-face))))
+   `(font-lock-delimiter-face ((t (:foreground ,ip-cream-light-18))))
    `(font-lock-doc-face ((t (:foreground ,ip-blue-bright)))) ; Alternate comment face.
    `(font-lock-doc-markup-face ((t (:foreground ,ip-cyan-bright))))
    `(font-lock-constant-face ((t (:foreground ,ip-cyan-bright))))

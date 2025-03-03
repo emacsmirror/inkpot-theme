@@ -3,6 +3,8 @@
 Change Log
 ##########
 
+- 2025-03-03
+   - Add ``font-lock-delimiter-face`` color.
 
 - 2023-06-11
    - Add ``anzu-mode-line-no-match`` color.
